@@ -7,7 +7,7 @@ concurrent: 100
 media-concurrent: 20
 # 测速并发数（默认等于concurrent）
 # 建议设置较低值，避免并发抢带宽导致测速不准
-speed-concurrent: 10
+speed-concurrent: 5
 # 是否打乱节点的测试顺序（仅影响测试先后，输出顺序保持订阅原序不变）
 # 开启后可避免同机场相邻节点、同节点的多个协议被扎堆在同一时间窗口测试，
 # 从而降低相邻IP一起出问题、互相干扰的概率
@@ -38,11 +38,11 @@ alive-test-url: http://gstatic.com/generate_204
 # 如果找不到稳定的测速地址，可以自建测速地址
 speed-test-url: https://github.com/AaronFeng753/Waifu2x-Extension-GUI/releases/download/v2.21.12/Waifu2x-Extension-GUI-v2.21.12-Portable.7z
 # 最低测速结果舍弃(KB/s)
-min-speed: 512
+min-speed: 0
 # 下载测试时间(s)(与下载链接大小相关，默认最大测试10s)
-download-timeout: 6
+download-timeout: 10
 # 单节点测速下载数据大小(MB)限制，0为不限
-download-mb: 10
+download-mb: 20
 # 总下载速度速度限制(MB/s)，0为不限
 total-speed-limit: 20
 
