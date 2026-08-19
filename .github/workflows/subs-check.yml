@@ -28,6 +28,7 @@ jobs:
 
       - name: 运行 subs-check 检测一轮
         run: |
+          mkdir -p output
           touch output/.ci-start
           docker run --rm -d --name subs-check-ci \
             -e TZ=Asia/Shanghai \
