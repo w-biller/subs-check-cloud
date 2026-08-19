@@ -1,0 +1,57 @@
+name: subs-check 定时检测
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'config/config.yaml'
+      - '.github/workflows/subs-check.yml'
+  schedule:
+    # UTC 时间每天 4 次（北京时间 10:00 / 16:00 / 22:00 / 04:00）
+    - cron: '0 2,8,14,20 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: subs-check-run
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 运行 subs-check 检测一轮
+        run: |
+          touch output/.ci-start
+          docker run --rm -d --name subs-check-ci \
+            -e TZ=Asia/Shanghai \
+            -v "$PWD/config":/app/config \
+            -v "$PWD/output":/app/output \
+            ghcr.io/beck-8/subs-check:latest
+          # 等待首轮检测完成（检测到新的 all.yaml 或日志出现“检测完成”）
+          for i in $(seq 1 240); do
+            if [ -f output/all.yaml ] && [ output/all.yaml -nt output/.ci-start ]; then break; fi
+            if docker logs subs-check-ci 2>&1 | grep -q "检测完成"; then break; fi
+            sleep 10
+          done
+          sleep 10
+          docker stop subs-check-ci || true
+
+      - name: 提交检测结果
+        run: |
+          rm -f output/.ci-start
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output
+          if git diff --cached --quiet; then
+            echo "本轮无更新，跳过提交"
+            exit 0
+          fi
+          git commit -m "chore: 更新订阅 $(date -u +'%Y-%m-%d %H:%M')"
+          git push
