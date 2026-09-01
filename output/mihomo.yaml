@@ -1,324 +1,50 @@
 proxies:
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: 🇦🇪AE_1|703KB/s|0%|TK-USEASTRED|YT-RU|NF-US|GPT⁺-NL|CL-NL|SP-AE
-    network: raw
-    port: 8443
-    reality-opts:
-      public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-      short-id: ""
-    server: 31.58.181.88
-    tls: true
-    type: vless
-    udp: true
-    uuid: 4a239f83-479c-4790-a9c7-fe7ddd483a4c
-    xudp: true
-    packet-encoding: xudp
-    servername: tradingview.com
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: 🇬🇧GB_1|1.1MB/s|46%|TK-GB|YT-RU|NF-GB|GPT⁺-GB|CL-GB|SP-UK
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
-      short-id: "fd55b698ee8c3629"
-    server: 87.117.234.19
-    tls: true
-    type: vless
-    udp: true
-    uuid: 4d583b2c-2f5a-47d0-8181-e95217fe8cd9
-    xudp: true
-    packet-encoding: xudp
-    servername: strapi.io
-  - client-fingerprint: chrome
-    encryption: none
-    name: 🇺🇸US_1|7.1MB/s|24%|TK-US|YT-US|NF|D+-US|GPT⁺-KR|GM-US|CL-KR|SP-US
-    network: ws
-    port: 2087
-    server: www.shopify.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-    ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
-      headers:
-        Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.67 Safari/537.36
-      max-early-data: 2560
-      path: /
-    xudp: true
-    packet-encoding: xudp
-    servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: 🇺🇸US_2|7.0MB/s|76%|TK-US|YT-US|NF-US|GPT⁺-US|GM-US|CL-US|SP-US
-    network: tcp
-    port: 23576
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: "01"
-    server: 15.204.97.206
-    tls: true
-    type: vless
-    udp: true
-    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-    xudp: true
-    packet-encoding: xudp
-    servername: fuck.rkn
-  - down: ""
-    fingerprint: ""
-    name: 🇩🇪DE_1|3.5MB/s|4%|TK-DE|YT-DE|NF-DE|GPT⁺-DE|GM-DE|CL-DE|SP-DE
-    obfs: ""
-    obfs-password: ""
-    password: zhangyang
-    port: 6443
-    server: 130.61.50.75
-    skip-cert-verify: true
-    sni: 130.61.50.75
-    type: hysteria2
-    up: ""
-    udp: true
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: 🇺🇸US_3|5.5MB/s|70%|TK-US|YT-US|NF-US|GPT⁺-US|GM-US|CL-US
-    network: tcp
-    port: 23576
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: "01"
-    server: 15.204.97.197
-    tls: true
-    type: vless
-    udp: true
-    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-    xudp: true
-    packet-encoding: xudp
-    servername: fuck.rkn
-  - client-fingerprint: chrome
-    name: 🇺🇸US_4|770KB/s|62%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US
-    network: tcp
-    password: kkzh2prsyr2ik47as615
-    port: 57142
-    server: 64.94.95.118
-    skip-cert-verify: true
-    sni: 64.94.95.118
-    type: trojan
-    udp: true
-  - client-fingerprint: firefox
-    encryption: none
-    flow: xtls-rprx-vision
-    name: 🇬🇧GB_2|389KB/s|0%|TK-USEASTRED|YT-US|NF-LV|GPT⁺-FI|CL-FI|SP-UK
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
-      short-id: "8325360e8bd2"
-    server: 107.181.151.39
-    tls: true
-    type: vless
-    udp: true
-    uuid: fad0b9a6-187d-4fcc-96fc-498bc5b3135a
-    xudp: true
-    packet-encoding: xudp
-    servername: www.foxsports.com
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: 🇺🇸US_5|11.8MB/s|74%|TK-US|YT-RU|NF-US|D+-US|GPT⁺-US|CL-US|SP-US
-    network: tcp
-    port: 8443
-    reality-opts:
-      public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
-      short-id: ""
-    server: 31.58.50.200
-    tls: true
-    type: vless
-    udp: true
-    uuid: d85ce6b7-8b41-495a-9ae3-9b85368d2988
-    xudp: true
-    packet-encoding: xudp
-    servername: tradingview.com
-  - client-fingerprint: firefox
-    encryption: none
-    name: 🇳🇴NO_1|1.3MB/s|0%|TK-NO|YT-RU|NF-NL|D+-NO|GPT⁺-NO|CL-NO|SP-NO
-    network: tcp
-    port: 40443
-    reality-opts:
-      public-key: 7i4Y7v80NVAIi_4_9roDkqcXmexIHli87dfZuFaQMUI
-      short-id: "68da"
-    server: 46.29.238.139
-    tls: true
-    type: vless
-    udp: true
-    uuid: 8384341b-cd89-4a21-a022-cc4bd4e648ca
-    xudp: true
-    packet-encoding: xudp
-    servername: deepl.com
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: 🇺🇸US_6|3.0MB/s|74%|YT-RU|NF-US|D+-US|GPT⁺-US|CL-US|SP-US
-    network: tcp
-    port: 8443
-    reality-opts:
-      public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
-      short-id: ""
-    server: 31.58.50.200
-    tls: true
-    type: vless
-    udp: true
-    uuid: fab6b76a-1abe-4f34-8272-77ab121c391c
-    xudp: true
-    packet-encoding: xudp
-    servername: tradingview.com
-  - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_1|2.4MB/s|51%|TK-USEASTRED|YT-US|NF-DE|GPT⁺-NL|CL-NL|SP-NL
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-    port: 8080
-    server: 82.38.31.175
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    name: 🇺🇸US_7|593KB/s|0%|TK-ALISG|YT-US|NF-US|GPT⁺-CA|CL-CA|SP-US
-    network: tcp
-    password: lEjtI3pFYfU7O1UYozJcfZV5K6Fwfths
-    port: 58536
-    server: 64.74.163.118
-    skip-cert-verify: true
-    sni: 64.74.163.118
-    type: trojan
-    udp: true
-  - alterId: 2
-    cipher: auto
-    name: 🇫🇷FR_1|26KB/s|26%|TK-FR|NF-FR|GPT⁺-FR|CL-FR|SP-FR
-    port: 30835
-    server: v35.hdacd.com
-    skip-cert-verify: true
-    tls: false
-    type: vmess
-    udp: true
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    network: tcp
-  - name: 🇮🇩ID_1|2.1MB/s|83%|TK-US|YT-US|NF-US|GPT⁺-US|GM-US|CL-US|SP-ID
-    port: 443
-    server: tzoa.fun
-    sni: tzoa.fun
-    tls: true
-    type: http
-    udp: true
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: 🇸🇬SG_1|773KB/s|0%|TK-ALISG|YT-IQ|NF-SG|GPT⁺-SG|GM-IQ|CL-SG|SP-SG
-    network: raw
-    port: 443
-    reality-opts:
-      public-key: UOLfRKeEoVxkp-APTF2OlvFkKSoiR2mWzUuhSWxcVmQ
-      short-id: "133a3f10a1581047"
-    server: 206.206.78.36
-    tls: true
-    type: vless
-    udp: true
-    uuid: e3f0c894-0f76-4683-a751-6a93da8fd14d
-    xudp: true
-    packet-encoding: xudp
-    servername: www.cloudflare.com
-  - name: 🇺🇸US_8|4.9MB/s|TK-US|YT-US|NF-US|D+-US|GM-US|SP-US
-    network: ws
-    port: 2095
-    server: 162.159.48.32
-    type: vless
-    udp: true
-    uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-    ws-opts:
-      headers:
-        Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-        User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile
-          Safari/537.36
-      path: /?ed=2560security=tls
-    xudp: true
-    packet-encoding: xudp
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: 🇬🇧GB_3|570KB/s|55%|TK-GB|YT-RU|NF-GB|GPT⁺-GB|CL-GB|SP-UK
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
-      short-id: "fd55b698ee8c3629"
-    server: 95.154.237.50
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9c0d8a49-4c47-4210-8f01-d251028d88d1
-    xudp: true
-    packet-encoding: xudp
-    servername: lanacion.com.ar
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: 🇺🇸US_9|4.2MB/s|74%|TK-US|YT-RU|NF-US|D+-US|GPT⁺-US|CL-US|SP-US
-    network: tcp
-    port: 8443
-    reality-opts:
-      public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
-      short-id: ""
-    server: 31.58.50.200
-    tls: true
-    type: vless
-    udp: true
-    uuid: c5f99eb2-0712-41a8-84d8-4715f0a8a588
-    xudp: true
-    packet-encoding: xudp
-    servername: tradingview.com
-  - name: 🇬🇧GB_4|3.0MB/s|0%|TK-GB|YT-GB|NF-GB|D+-GB|GPT⁺-GB|GM-GB|CL-GB|SP-UK
-    port: 443
-    server: 185.235.0.2
+  - name: 🇺🇸US_1|2.1MB/s|67%|TK-US|YT-US|NF-US|GPT⁺-US|GM-US|CL-US|SP-US
+    password: "null"
+    port: 9002
+    server: 138.199.35.195
     skip-cert-verify: true
     tls: true
     type: http
+    username: "null"
     udp: true
-  - client-fingerprint: chrome
-    encryption: none
-    name: 🇳🇱NL_2|1.1MB/s|0%|TK-USEASTRED|YT-RU|NF|D+-NL|GPT⁺-NL|CL-NL|SP-NL
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: tWRR3W8jBAQKBUujLzL7Xri3WXy3F08OxHYrkSOnlAc
-      short-id: "52a6"
-    server: 147.45.145.127
+  - name: 🇷🇴RO_1|1.1MB/s|51%|TK-RO|YT-RO|NF-RO|GPT⁺-RO|GM-RO|CL-RO|SP-RO
+    port: 9002
+    server: 193.176.84.24
+    skip-cert-verify: true
+    sni: www.bing.com
     tls: true
-    type: vless
+    type: http
     udp: true
-    uuid: 534cbbe2-cc36-4f2d-8fb0-90410e7148c9
-    xudp: true
-    packet-encoding: xudp
-    servername: yahoo.com
   - down: ""
     fingerprint: ""
-    name: 🇭🇰HK_1|2.9MB/s|0%|TK-ALISG|YT-HK|NF-HK|D+-HK|SP-HK
+    name: 🇺🇸US_2|4.6MB/s|3%|TK-US|YT-US|NF-US|GPT⁺-US|GM-US|CL-US|SP-US
     obfs: ""
     obfs-password: ""
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
     port: 443
-    server: 202.146.222.29
+    server: vpn-us-002.fastervpn.world
     skip-cert-verify: true
-    sni: https://t.me/wangcai2рҹүёрҹүі
+    sni: vpn-us-002.fastervpn.world
     type: hysteria2
     up: ""
+    udp: true
+  - name: 🇦🇪AE_1|3.7MB/s|0%|TK-EE|YT-RU|NF-LV|GPT⁺-EE|CL-EE|SP-EE
+    password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
+    port: 443
+    server: cabinet.wwwinternetvideo.click
+    sni: cabinet.wwwinternetvideo.click
+    type: hysteria2
     udp: true
   - client-fingerprint: ios
     flow: xtls-rprx-vision
-    name: 🇺🇸US_10|3.9MB/s|50%|TK-US|YT-US|NF-US|GPT⁺-US|CL-US|SP-US
-    network: tcp
+    name: 🇺🇸US_3|6.2MB/s|69%|TK-US|YT-US|NF-US|GPT⁺-US|CL-US|SP-US
+    network: raw
     port: 443
     reality-opts:
       public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
       short-id: "c39cc7310a"
-    server: 169.40.42.229
+    server: 169.40.42.95
     tls: true
     type: vless
     udp: true
@@ -326,81 +52,249 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: yahoo.com
-  - name: 🇳🇱NL_3|2.0MB/s|61%|TK-USEASTRED|YT-NL|NF-NL|GPT⁺-NL|GM-NL|CL-NL|SP-NL
-    port: 9002
-    server: 84.17.47.150
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: 🇮🇱IL_1|4.4MB/s|5%|TK-US|YT-US|NF-US|GPT⁺-US|CL-US|SP-IL
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: 8eXftARun6KH38UZhuqIfPR1VF2DLS9RMBZEnF5k6To
-      short-id: "a3a578ab"
-    server: 185.95.231.156
-    tls: true
-    type: vless
-    udp: true
-    uuid: 1f8cf47a-b66a-4916-979f-26edfcf44eea
-    xudp: true
-    packet-encoding: xudp
-    servername: www.apple.com
-  - client-fingerprint: chrome
-    encryption: none
-    name: 🇫🇷FR_2|4.1MB/s|28%|TK-FR|YT-FR|NF-FR|D+-FR|GPT⁺-FR|GM-FR|CL-FR|SP-FR
-    network: xhttp
-    port: 32202
-    reality-opts:
-      public-key: bGe_-nAtOq6_w_2mv6pcmD8RzJP65Tti-vyMP2hAwDc
-      short-id: "f57d8f26"
-    server: 62.210.24.143
-    tls: true
-    type: vless
-    udp: true
-    uuid: 28148be2-61a7-4f36-8adb-030cc9f82bd0
-    xhttp-opts:
-      mode: auto
-      path: /G3EEoH63
-    xudp: true
-    packet-encoding: xudp
-    servername: www.amazon.com
-  - cipher: aes-128-gcm
-    name: 🇺🇸US_11|2.5MB/s|56%|TK-US|YT-US|NF-US|GPT⁺|GM-US|CL-US|SP-US
-    password: shadowsocks
-    port: 443
-    server: 173.244.56.9
-    type: ss
-    udp: true
-  - name: 🇳🇱NL_4|2.6MB/s|61%|TK-USEASTRED|YT-NL|NF-NL|GPT⁺-NL|GM-NL|CL-NL|SP-NL
-    password: ""
-    port: 9002
-    server: 84.17.47.147
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: ""
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_5|3.8MB/s|51%|TK-USEASTRED|YT-US|NF-DE|GPT⁺-NL|CL-NL|SP-NL
-    password: k1dBOmOB4oqi7Ump37a1bQ
-    port: 8080
-    server: 82.38.31.213
-    type: ss
-    udp: true
-  - cipher: aes-256-cfb
-    name: 🇵🇱PL_1|3.3MB/s|18%|TK-PL|YT-PL|NF-PL|GPT⁺-PL|GM-PL|CL-PL|SP-PL
-    password: FAdUvMJUq5vDgKEq
-    port: 9006
-    server: 217.30.10.44
-    type: ss
-    udp: true
   - client-fingerprint: firefox
     flow: xtls-rprx-vision
-    name: 🇦🇪AE_2|1.4MB/s|0%|TK-USEASTRED|YT-RU|NF-US|D+-NL|GPT⁺-NL|CL-NL|SP-AE
+    name: 🇺🇸US_4|4.3MB/s|74%|TK-US|YT-RU|NF-US|D+-US|GPT⁺-US|CL-US|SP-US
+    network: tcp
+    port: 8443
+    reality-opts:
+      public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+      short-id: ""
+    server: 31.58.50.200
+    tls: true
+    type: vless
+    udp: true
+    uuid: b8fca50e-e3bb-4ae2-a44e-bde0e0495b2e
+    xudp: true
+    packet-encoding: xudp
+    servername: tradingview.com
+  - cipher: chacha20-ietf-poly1305
+    name: 🇳🇱NL_1|2.1MB/s|51%|TK-USEASTRED|YT-US|NF-DE|GPT⁺-NL|CL-NL|SP-NL
+    password: k1dBOmOB4oqi7Ump37a1bQ
+    port: 8080
+    server: 82.38.31.202
+    type: ss
+    udp: true
+  - name: 🇺🇸US_5|966KB/s|TK-US|YT-US|NF-US|D+-US|GM-US|SP-US
+    network: ws
+    port: 80
+    server: 104.18.93.3
+    type: vless
+    udp: true
+    uuid: 381806c4-d486-4769-a7be-ff778f4db511
+    ws-opts:
+      headers:
+        Host: worker2.yobagov334.workers.dev
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/48.0.2564.109 Safari/537.36
+      path: /nb2jqbKK80VXh0XH
+    xudp: true
+    packet-encoding: xudp
+  - client-fingerprint: chrome
+    name: 🇫🇷FR_1|1.0MB/s|35%|TK-FR|YT-US|NF-FR|D+-FR|GPT⁺-FR|CL-FR|SP-FR
+    network: ws
+    password: humanity
+    port: 443
+    server: 104.18.152.161
+    skip-cert-verify: false
+    sni: www.ignitelimit.com
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/49.0.2623.110 Safari/537.36
+      path: /assignment
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇺🇸US_6|4.6MB/s|67%|TK-US|YT-US|NF-US|GPT⁺-US|GM-US|CL-US|SP-US
+    network: raw
+    port: 443
+    reality-opts:
+      public-key: IZz9Lj4tnHzNj9AkGlcOQxQXMJe0EGZLtIyX1a_yNAg
+      short-id: "01d72fe094c8f6ef"
+    server: ql6k-m23nix.logicara.top
+    tls: true
+    type: vless
+    udp: true
+    uuid: 8fc03edf-6833-4c58-bbe4-0b35806dae84
+    xudp: true
+    packet-encoding: xudp
+    servername: www.bing.com
+  - name: 🇺🇸US_7|321KB/s|24%|TK-US|YT-US|NF-US|D+-US|GPT⁺-SG|GM-US|CL-SG|SP-US
+    network: ws
+    port: 8880
+    server: 104.17.181.19
+    type: vless
+    udp: true
+    uuid: 984d10dd-4d51-45ac-a781-f0c1357644c2
+    ws-opts:
+      headers:
+        Host: lingering-sun-d7b5.49-56e.workers.dev
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/49.0.2623.112 Safari/537.36
+      path: /pyip=ProxyIP.SG.CMLiussss.net
+    xudp: true
+    packet-encoding: xudp
+  - name: 🇺🇸US_8|274KB/s|24%|TK-US|YT-US|NF-US|D+-US|GPT⁺-JP|GM-US|CL-JP|SP-US
+    network: ws
+    port: 8880
+    server: 104.16.98.215
+    type: vless
+    udp: true
+    uuid: 0bd6aa8d-3bdb-4fa3-893e-75a844e2e409
+    ws-opts:
+      headers:
+        Host: wispy-cake-ec69.193-bc6.workers.dev
+        User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.106 Safari/537.36
+      path: /pyip=ProxyIP.JP.CMLiussss.net
+    xudp: true
+    packet-encoding: xudp
+  - name: 🇺🇸US_9|2.0MB/s|33%|TK-US|YT-US|NF-US|GPT⁺-US|GM-US|CL-US|SP-US
+    password: None
+    port: 9002
+    server: 138.199.35.206
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: 🇳🇱NL_2|2.2MB/s|61%|TK-USEASTRED|YT-NL|NF-NL|GPT⁺-NL|GM-NL|CL-NL|SP-NL
+    port: 9002
+    server: 84.17.47.149
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - client-fingerprint: chrome
+    name: 🇺🇸US_10|1.0MB/s|0%|TK-US|YT-US|NF-US|GPT⁺-US|GM-US|CL-US|SP-US
+    password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
+    port: 46292
+    server: us01.duotg.top
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    type: trojan
+    udp: true
+    network: tcp
+  - client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: 🇦🇪AE_2|3.1MB/s|0%|TK-USEASTRED|YT-RU|NF-US|D+-NL|GPT⁺-NL|CL-NL|SP-AE
+    network: raw
+    port: 8443
+    reality-opts:
+      public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+      short-id: ""
+    server: 31.58.181.88
+    tls: true
+    type: vless
+    udp: true
+    uuid: 3e930211-9887-4ec3-969a-c2e7a8837da2
+    xudp: true
+    packet-encoding: xudp
+    servername: tradingview.com
+  - client-fingerprint: chrome
+    encryption: none
+    name: 🇺🇸US_11|2.0MB/s|24%|TK-US|YT-US|NF|GPT⁺-KR|GM-US|CL-KR|SP-US
+    network: ws
+    port: 2087
+    server: 172.64.145.166
+    tls: true
+    type: vless
+    udp: true
+    uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+    ws-opts:
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/54.0.2840.71 Safari/537.36
+      max-early-data: 2560
+      path: /
+    xudp: true
+    packet-encoding: xudp
+    servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇳🇱NL_3|3.9MB/s|29%|TK-USEASTRED|YT-NL|NF-NL|GPT⁺-NL|GM-NL|CL-NL|SP-NL
+    network: tcp
+    port: 23576
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: "01"
+    server: 51.158.206.12
+    tls: true
+    type: vless
+    udp: true
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    xudp: true
+    packet-encoding: xudp
+    servername: fuck.rkn
+  - encryption: none
+    name: 🇺🇸US_12|265KB/s|TK-US|YT-US|NF-US|D+-US|GM-US|SP-US
+    network: ws
+    port: 8880
+    server: cf9.466688.xyz
+    type: vless
+    udp: true
+    uuid: 612f78a0-65ca-45af-a3ff-7d0f8e9f8655
+    ws-opts:
+      headers:
+        Host: broken-star-c5ae.446.workers.dev
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/43.0.2357.65 Safari/537.36
+      path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
+    xudp: true
+    packet-encoding: xudp
+  - name: 🇺🇸US_13|263KB/s|24%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US
+    network: ws
+    port: 8880
+    server: themeforest.net
+    type: vless
+    udp: true
+    uuid: f22856f8-66f0-4655-ba86-5385971e1302
+    ws-opts:
+      headers:
+        Host: throbbing-mountain-45e9.314-df3.workers.dev
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/64.0.3282.167 Safari/537.36
+      path: /pyip=ProxyIP.US.CMLiussss.net
+    xudp: true
+    packet-encoding: xudp
+  - client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: 🇺🇸US_14|5.1MB/s|74%|TK-US|YT-RU|NF-US|D+-US|GPT⁺-US|CL-US|SP-US
+    network: tcp
+    port: 8443
+    reality-opts:
+      public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+      short-id: ""
+    server: 31.58.50.200
+    tls: true
+    type: vless
+    udp: true
+    uuid: c50a60fe-07eb-4950-85ea-ee9c15b32c7d
+    xudp: true
+    packet-encoding: xudp
+    servername: tradingview.com
+  - client-fingerprint: ios
+    name: 🇫🇷FR_2|1.2MB/s|15%|TK-FR|YT-US|NF-DE|GPT⁺-FR|CL-FR|SP-FR
+    network: raw
+    port: 443
+    reality-opts:
+      public-key: jvJPfOHtnr2sH79qG-rEtJHFbr36_7Ag7ARsUmtSDQo
+      short-id: "5030"
+    server: 213.136.92.67
+    tls: true
+    type: vless
+    udp: true
+    uuid: af348651-1624-4710-b55f-0307a22d891f
+    xudp: true
+    packet-encoding: xudp
+    servername: status.play.google.com
+  - client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: 🇦🇪AE_3|1.4MB/s|0%|TK-USEASTRED|YT-RU|NF-US|D+-NL|GPT⁺-NL|CL-NL|SP-AE
     network: tcp
     port: 8443
     reality-opts:
@@ -410,216 +304,124 @@ proxies:
     tls: true
     type: vless
     udp: true
-    uuid: 431acd7d-ef6c-4d2b-b471-bcdddca8050c
+    uuid: d0da19f1-fb05-488e-99c2-262389b3537b
     xudp: true
     packet-encoding: xudp
     servername: tradingview.com
-  - name: 🇺🇸US_12|516KB/s|24%|TK-US|YT-US|NF-US|D+-US|GPT-SG|GM-US|CL-SG|SP-US
-    network: ws
-    port: 8080
-    server: 188.114.97.6
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇬🇧GB_1|479KB/s|0%|TK-USEASTRED|YT-US|NF-LV|GPT⁺-FI|CL-FI|SP-UK
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
+      short-id: "6c825bc79850"
+    server: server.slavkiti.monster
+    tls: true
     type: vless
     udp: true
-    uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+    uuid: 1896c6c9-a941-4688-a865-29027bf7f8e6
+    xudp: true
+    packet-encoding: xudp
+    servername: www.microsoft.com
+  - name: 🇺🇸US_15|25KB/s|0%|TK-US|NF-US|GPT-US|CL-US
+    port: 8282
+    server: 208.95.22.65
+    type: http
+    udp: true
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇬🇧GB_2|3.3MB/s|0%|TK-US|YT-RU|NF-LV|GPT⁺-LV|CL-LV|SP-LV
+    network: raw
+    port: 443
+    reality-opts:
+      public-key: GBdkyDLfr0LIZo_94Xv8ycAKOmkjArYzwJAEMhuXX2c
+      short-id: "33acba1b"
+    server: 138.124.180.137
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5234b2b7-5e07-422c-8159-d62a676c00c6
+    xudp: true
+    packet-encoding: xudp
+    servername: www.apple.com
+  - cipher: aes-128-gcm
+    name: 🇬🇧GB_3|284KB/s|35%|TK-GB|NF-GB|GPT⁺-GB|GM-TM|CL-GB|SP-UK
+    password: shadowsocks
+    port: 443
+    server: 158.173.24.73
+    type: ss
+    udp: true
+  - name: 🇺🇸US_16|306KB/s|TK-US|YT-US|NF-US|D+-US|GM-US|CL-IL|SP-US
+    network: ws
+    port: 8880
+    server: 66.235.200.30
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     ws-opts:
       headers:
-        Host: hhlfy.twiladaphne.ndjp.net
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.101 Safari/537.36
-      path: /sg-melbi
+        Host: vms.lifetime47.workers.dev
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.67 Safari/537.36
+      path: /
     xudp: true
     packet-encoding: xudp
-  - client-fingerprint: ios
-    flow: xtls-rprx-vision
-    name: 🇬🇧GB_5|3.4MB/s|55%|TK-GB|YT-RU|NF-GB|GPT⁺-GB|CL-GB|SP-UK
-    network: raw
+  - name: 🇨🇿CZ_1|1.1MB/s|73%|TK-CZ|YT-CZ|NF-PL|GPT⁺-CZ|GM-CZ|CL-CZ|SP-CZ
     port: 443
-    reality-opts:
-      public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
-      short-id: "fd55b698ee8c3629"
-    server: 95.154.237.50
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9c0d8a49-4c47-4210-8f01-d251028d88d1
-    xudp: true
-    packet-encoding: xudp
-    servername: lanacion.com.ar
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: 🇺🇸US_13|5.0MB/s|76%|TK-US|YT-US|NF-US|GPT⁺-US|GM-US|CL-US|SP-US
-    network: raw
-    port: 23576
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: "01"
-    server: 15.204.97.206
-    tls: true
-    type: vless
-    udp: true
-    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-    xudp: true
-    packet-encoding: xudp
-    servername: fuck.rkn
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: 🇺🇸US_14|3.6MB/s|74%|YT-RU|NF-US|D+-US|GPT⁺-US|CL-US|SP-US
-    network: tcp
-    port: 8443
-    reality-opts:
-      public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
-      short-id: ""
-    server: 31.58.50.200
-    tls: true
-    type: vless
-    udp: true
-    uuid: 456e03e6-f389-452f-8390-00f6b49b2e8e
-    xudp: true
-    packet-encoding: xudp
-    servername: tradingview.com
-  - name: 🇳🇱NL_6|2.9MB/s|23%|TK-NL|GPT⁺-NL|GM-NL
-    obfs: salamander
-    obfs-password: HysteriaHowdy
-    password: HowdyHysteria2023w0W
-    port: 8443
-    server: 51.15.19.206
-    skip-cert-verify: true
-    sni: sni-here.com
-    type: hysteria2
-    udp: true
-  - client-fingerprint: chrome
-    encryption: none
-    grpc-opts:
-      grpc-service-name: grpc
-    name: 🇱🇻LV_1|2.1MB/s|18%|TK-LV|YT-US|NF-US|GPT⁺-LV|CL-LV|SP-LV
-    network: grpc
-    port: 2083
-    server: laoye.in-gect.fun
-    tls: true
-    type: vless
-    udp: true
-    uuid: 70e20b2e-3b1f-4c25-9a3d-9240570391bb
-    xudp: true
-    packet-encoding: xudp
-    servername: laoye.in-gect.fun
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: 🇺🇸US_15|6.3MB/s|74%|TK-US|YT-RU|NF-US|D+-US|GPT⁺-US|CL-US|SP-US
-    network: tcp
-    port: 8443
-    reality-opts:
-      public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
-      short-id: ""
-    server: 31.58.50.200
-    tls: true
-    type: vless
-    udp: true
-    uuid: 94648954-d422-4854-9573-28e061319b2b
-    xudp: true
-    packet-encoding: xudp
-    servername: tradingview.com
-  - name: 🇬🇧GB_6|2.1MB/s|0%|TK-GB|YT-GB|NF-GB|GPT⁺-GB|GM-GB|CL-GB|SP-UK
-    port: 443
-    server: 185.235.0.66
+    server: 185.216.35.130
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - alterId: "0"
-    cipher: auto
-    name: 🇺🇸US_16|1.5MB/s|74%|TK-US|YT-US|NF-US|GPT⁺-US|GM-US|CL-US|SP-US
-    network: tcp
-    port: 18000
-    server: 84.17.41.2
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-    xudp: true
-    packet-encoding: xudp
-  - down: ""
-    fingerprint: ""
-    name: 🇹🇼TW_1|5.8MB/s|0%|TK-ALISG|YT-TW|NF-TW|D+-TW|GPT⁺-TW|GM-TW|CL-TW|SP-TW
-    obfs: ""
-    obfs-password: ""
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-    port: 443
-    server: 103.115.109.49
-    skip-cert-verify: true
-    sni: "https:"
-    type: hysteria2
-    up: ""
-    udp: true
-  - down: ""
-    fingerprint: ""
-    name: 🇬🇱GL_1|2.2MB/s|6%|TK-ALISG|YT-RU|NF-GB|GPT⁺-GB|CL-GB|SP-SC
-    obfs: ""
-    obfs-password: ""
-    password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
-    port: 8080
-    server: 103.246.248.231
-    skip-cert-verify: true
-    sni: hopp-legend-se.roxa.org
-    type: hysteria2
-    up: ""
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_7|716KB/s|50%|TK-USEASTRED|YT-US|NF-DE|GPT⁺-NL|CL-NL|SP-NL
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-    port: 8080
-    server: 82.38.31.2
-    type: ss
-    udp: true
-  - name: 🇺🇸US_17|3.9MB/s|TK-US|YT-US|NF-US|D+-US|GM-US|SP-US
-    network: ws
-    port: 8880
-    server: 188.114.97.6
-    type: vless
-    udp: true
-    uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-    ws-opts:
-      headers:
-        Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/68.0.3440.75 Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    packet-encoding: xudp
-  - down: ""
-    fingerprint: ""
-    name: 🇭🇰HK_2|2.9MB/s|0%|TK-ALISG|YT-HK|NF-HK|D+-HK|SP-HK
-    obfs: ""
-    obfs-password: ""
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-    port: 443
-    server: 202.146.222.174
-    skip-cert-verify: true
-    sni: https://t.me/oneclickvpnkeys
-    type: hysteria2
-    up: ""
-    udp: true
-  - client-fingerprint: firefox
+  - client-fingerprint: chrome
+    encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_18|3.1MB/s|74%|TK-US|YT-RU|NF-US|D+-US|GPT⁺-US|CL-US|SP-US
+    name: 🇱🇹LT_1|3.0MB/s|3%|TK-LT|YT-RU|NF-LV|D+-LT|GPT⁺-LT|CL-LT|SP-LT
     network: tcp
-    port: 8443
+    port: 443
     reality-opts:
-      public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+      public-key: 00n9LplaZ0VGvRS57548s7xe0deFC10pw2fkFHFPplM
       short-id: ""
-    server: 31.58.50.200
+    server: 84.32.209.7
     tls: true
     type: vless
     udp: true
-    uuid: f9bd8170-6d98-4623-85e6-c86b14ea9b9c
+    uuid: f1c496bf-d2ab-45be-bc13-051d60d227b7
     xudp: true
     packet-encoding: xudp
-    servername: tradingview.com
+    servername: doubleclick-cn.net
+  - cipher: chacha20-ietf-poly1305
+    name: 🇳🇱NL_4|1.4MB/s|0%|TK-USEASTRED|YT-US|NF-DE|GPT⁺-NL|CL-NL|SP-NL
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+    port: 443
+    server: 193.29.139.230
+    type: ss
+    udp: true
+  - name: 🇺🇸US_17|106KB/s|0%|TK-ALISG|YT-CN|NF-US|D+-HK|GPT⁺-US|CL-US|SP-US
+    password: gs4BXwT6SW
+    port: 10988
+    server: 154.26.192.123
+    tls: false
+    type: http
+    username: fQ67Dpe5dU
+    udp: true
+  - name: 🇺🇸US_18|2.1MB/s|71%|TK-US|YT-US|NF-US|GPT⁺-US|CL-US|SP-US
+    password: e4b72b531a2d10900519
+    port: 443
+    server: 147.182.216.4
+    sni: 93b6d804.acsnet.co
+    tls: true
+    type: http
+    username: testuser1
+    udp: true
+  - name: ❓Other_1|220KB/s
+    port: 18000
+    server: 82.213.29.53
+    type: http
+    udp: true
   - client-fingerprint: chrome
-    name: 🇯🇵JP_1|151KB/s|24%|TK-ALISG|YT-JP|NF-JP|D+-JP|GPT⁺|GM-JP|CL-JP|SP-JP
+    name: 🇯🇵JP_1|389KB/s|24%|TK-ALISG|YT-JP|NF-JP|D+-JP|GPT⁺-JP|GM-JP|CL-JP|SP-JP
     network: ws
     port: 7219
     server: 151.241.129.98
@@ -636,266 +438,118 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
-  - down: ""
-    fingerprint: ""
-    name: 🇹🇷TR_1|3.0MB/s|22%|TK-ALISG|YT-RU|NF-TR|GPT⁺-TR|CL-TR|SP-TR
-    obfs: ""
-    obfs-password: ""
-    password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-    port: 8080
-    server: 162.249.124.113
-    skip-cert-verify: false
-    sni: hopp-germany-new.ddnsguru.com
-    type: hysteria2
-    up: ""
+  - name: 🇺🇸US_19|7.3MB/s|57%|TK-US|YT-US|NF-US|GPT⁺-US|GM-US|CL-US|SP-US
+    port: 9002
+    server: 138.199.35.215
+    skip-cert-verify: true
+    tls: true
+    type: http
     udp: true
+  - name: 🇺🇸US_20|2.2MB/s|7%|YT-US|NF-US|D+-US|GM-US|CL-US|SP-US
+    port: 5999
+    server: 24.52.147.103
+    type: http
+    udp: true
+  - encryption: none
+    name: 🇺🇸US_21|324KB/s|TK-US|YT-US|NF-US|D+-US|GM-US|SP-US
+    network: ws
+    port: 8880
+    server: cf4.466688.xyz
+    type: vless
+    udp: true
+    uuid: 9be3bb59-c281-4fee-ae3d-7cf6c4b47eb4
+    ws-opts:
+      headers:
+        Host: late-mountain-6801.355.workers.dev
+        User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /pyip=ProxyIP.JP.CMLiussss.net@https://t.me/QiangLieTuiJian
+    xudp: true
+    packet-encoding: xudp
   - down: ""
     fingerprint: ""
-    name: 🇺🇸US_19|7.2MB/s|2%|TK-US|YT-US|NF-US|GPT⁺-US|GM-US|CL-US|SP-US
+    name: 🇸🇬SG_1|3.3MB/s|3%|TK-ALISG|YT-SG|NF-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG
     obfs: ""
     obfs-password: ""
     password: qQe1z5kU8kN6SlKnDt9Ru3Qp
     port: 443
-    server: 16.148.5.63
+    server: 13.250.120.9
     skip-cert-verify: true
     sni: t.me
     type: hysteria2
     up: ""
     udp: true
-  - client-fingerprint: chrome
+  - name: 🇺🇸US_22|353KB/s|TK-US|YT-US|NF-US|D+-US|GM-US|SP-US
+    network: ws
+    port: 80
+    server: 91.193.58.93
+    skip-cert-verify: false
+    tls: false
+    type: vless
+    udp: true
+    uuid: f2d55510-fa3c-4e3b-adfc-2d96fa399c19
+    ws-opts:
+      headers:
+        Host: plain-darkness-90ea.259.workers.dev
+      path: /pyip=Telegram🇨🇳+@WangCai2
+  - name: 🇺🇸US_23|349KB/s|24%|TK-US|YT-US|NF-US|D+-US|GPT⁺|GM-US|CL-SG|SP-US
+    network: ws
+    port: 8880
+    server: www.visa.com.sg
+    type: vless
+    udp: true
+    uuid: 35b94b2c-1b46-4209-a04b-32ecf159b632
+    ws-opts:
+      headers:
+        Host: fragrant-tooth-2180.97-cbb.workers.dev
+        User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
+          Safari/537.36
+      path: /pyip=ProxyIP.SG.CMLiussss.net
+    xudp: true
+    packet-encoding: xudp
+  - down: ""
+    fingerprint: ""
+    name: 🇸🇬SG_2|3.3MB/s|3%|TK-ALISG|YT-SG|NF-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG
+    obfs: ""
+    obfs-password: ""
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    port: 443
+    server: 13.250.120.9
+    skip-cert-verify: true
+    sni: css.rbxcdn.com
+    type: hysteria2
+    up: ""
+    udp: true
+  - client-fingerprint: ios
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_20|8.6MB/s|74%|YT-RU|NF-US|D+-US|GPT⁺-US|CL-US|SP-US
+    name: 🇺🇸US_24|5.0MB/s|83%|TK-US|YT-US|NF-US|GPT⁺-US|CL-US|SP-US
     network: tcp
-    port: 8443
+    port: 443
     reality-opts:
-      public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
-      short-id: ""
-    server: 31.58.50.200
+      public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+      short-id: "c39cc7310a"
+    server: 169.40.42.173
     tls: true
     type: vless
     udp: true
-    uuid: 4b2fbd30-1a64-4b27-aea9-713d62c9e69b
+    uuid: d65cc14c-f53f-4fe2-b262-97856601319c
     xudp: true
     packet-encoding: xudp
-    servername: tradingview.com
-  - client-fingerprint: ios
-    grpc-opts:
-      grpc-service-name: grpc
-    name: 🇬🇧GB_7|1.9MB/s|0%|TK-USEASTRED|YT-DZ|NF-HU|GPT⁺-FR|GM-DZ|CL-FR|SP-FR
-    network: grpc
-    port: 2083
-    server: 45.144.28.39
-    tls: true
-    type: vless
-    udp: true
-    uuid: 70e20b2e-3b1f-4c25-9a3d-9240570391bb
-    xudp: true
-    packet-encoding: xudp
-    servername: usejh2.neobo-tooth.ru
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: 🇺🇸US_21|3.4MB/s|74%|YT-RU|NF-US|D+-US|GPT⁺-US|CL-US|SP-US
-    network: tcp
-    port: 8443
-    reality-opts:
-      public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
-      short-id: ""
-    server: 31.58.50.200
-    tls: true
-    type: vless
-    udp: true
-    uuid: d25940f6-1d52-4f2d-968d-d34016d2b5ee
-    xudp: true
-    packet-encoding: xudp
-    servername: tradingview.com
+    servername: yahoo.com
   - cipher: chacha20-ietf-poly1305
-    name: 🇭🇰HK_3|120KB/s|0%|TK-ALISG|YT-CN|NF-HK|D+-HK|SP-HK
+    name: 🇭🇰HK_1|396KB/s|0%|TK-ALISG|YT-CN|NF-HK|D+-HK|SP-HK
     password: ljqdalu13..
     port: 8319
     server: 95.40.120.162
     type: ss
     udp: true
-  - alpn:
-      - ""
-    alterId: "0"
-    cipher: auto
-    name: 🇭🇰HK_4|2.7MB/s|0%|YT-HK|NF|SP-HK
-    network: ws
-    port: 443
-    server: nycqg19zkwacpm1b.v.3dns.vip
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    udp: true
-    uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-    ws-opts:
-      headers:
-        Host: NYcQg19zkwaCPM1B.v.3dns.vip
-      path: /ws-vmess
-    xudp: true
-    packet-encoding: xudp
-    servername: NYcQg19zkwaCPM1B.v.3dns.vip
-  - encryption: none
-    name: 🇮🇹IT_1|1.3MB/s|0%|TK-IT|YT-NL|NF-HU|D+-IT|GPT⁺-IT|GM-NL|CL-IT|SP-IT
-    network: ws
-    port: 443
-    server: itproxy4.lockdwn.com
-    type: vless
-    udp: true
-    uuid: e4737ce4-c646-44cc-9067-390e13c2a5f6
-    ws-opts:
-      headers:
-        Host: itproxy4.lockdwn.com
-        User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/56.0.2924.87 Safari/537.36
-      path: /
-    xudp: true
-    packet-encoding: xudp
-  - down: ""
-    fingerprint: ""
-    name: 🇺🇸US_22|7.8MB/s|3%|TK-US|YT-US|NF-US|GPT⁺-US|GM-US|CL-US|SP-US
-    obfs: ""
-    obfs-password: ""
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-    port: 443
-    server: vpn-us-004.fastervpn.world
-    skip-cert-verify: true
-    sni: vpn-us-004.fastervpn.world
-    type: hysteria2
-    up: ""
-    udp: true
-  - alterId: 2
-    cipher: none
-    name: 🇩🇪DE_2|122KB/s|26%|NF-DE|CL-DE|SP-DE
-    port: 30833
-    server: v33.hdacd.com
-    skip-cert-verify: true
-    tls: false
-    type: vmess
-    udp: true
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    network: tcp
-  - cipher: chacha20-ietf-poly1305
-    name: 🇳🇱NL_8|1.3MB/s|0%|TK-USEASTRED|YT-US|NF-DE|GPT⁺-NL|CL-NL|SP-NL
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-    port: 8080
-    server: 193.29.139.235
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: 🇯🇵JP_2|1.1MB/s|65%|TK-ALISG|GPT⁺-JP|CL-JP|SP-JP
-    password: shadowsocks
-    port: 443
-    server: 149.22.87.204
-    type: ss
-    udp: true
-  - name: 🇷🇴RO_1|4.1MB/s|0%|TK-RO|YT-RU|NF-DE|GPT⁺-DE|CL-DE|SP-RO
-    password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-    port: 8443
-    server: 162.249.124.118
-    skip-cert-verify: true
-    sni: hopp-germany-new.ddnsguru.com
-    type: hysteria2
-    udp: true
-  - name: 🇫🇷FR_3|3.8MB/s|0%|TK-FR|YT-RU|NF-FR|D+-FR|GPT⁺-FR|CL-FR|SP-FR
-    password: github.com/Alvin9999-newpac/fanqiang
-    port: 60111
-    server: 62.210.7.139
-    skip-cert-verify: true
-    sni: bing.com
-    type: hysteria2
-    udp: true
-  - alterId: 0
-    cipher: auto
-    name: 🇸🇬SG_2|45KB/s|0%|TK-ALISG|NF-SG|GPT⁺-SG|CL-SG
-    network: none
-    port: 29521
-    server: 47.236.207.245
-    tls: false
-    type: vmess
-    uuid: f1bb29bf-a342-44d4-9ac5-5ca4566a216a
-    udp: true
-  - name: 🇺🇸US_23|3.7MB/s|76%|TK-US|YT-US|NF-US|D+-HK|GPT⁺-US|GM-US|CL-US|SP-US
-    port: 443
-    server: jewelscollecti.icu
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-    sni: jewelscollecti.icu
-  - name: 🇩🇪DE_3|3.2MB/s|5%|TK-DE|YT-DE|NF-DE|GPT⁺-DE|GM-DE|CL-DE|SP-DE
-    port: 11000
-    server: 116.202.172.187
-    type: http
-    udp: true
-  - name: 🇺🇸US_24|2.8MB/s|88%|TK-US|YT-US|NF-US|GPT⁺-US|GM-US|CL-US|SP-US
-    port: 443
-    server: purecambogiasl.live
-    skip-cert-verify: true
-    sni: purecambogiasl.live
-    tls: true
-    type: http
-    udp: true
-  - name: 🇺🇸US_25|2.8MB/s|72%|TK-US|YT-US|NF-US|GPT⁺-US|GM-US|CL-US|SP-US
-    password: None
-    port: 443
-    server: webdrone.club
-    skip-cert-verify: false
-    tls: true
-    type: http
-    udp: true
-    sni: webdrone.club
-  - name: 🇺🇸US_26|3.0MB/s|6%|TK-US|YT-US|NF-US|GPT⁺-US|GM-US|CL-US|SP-US
-    port: 442
-    server: 54.235.192.64
-    type: http
-    udp: true
-  - name: 🇷🇴RO_2|455KB/s|51%|TK-RO|NF-RO|GPT⁺-RO|GM-RO|CL-RO
-    password: None
-    port: 9002
-    server: 193.176.84.33
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: "null"
-    udp: true
-  - name: 🇺🇸US_27|2.2MB/s|50%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US
-    password: None
-    port: 9002
-    server: 138.199.35.204
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇷🇴RO_3|20KB/s|51%|TK-RO|NF-RO|GPT⁺-RO|GM-RO|CL-RO|SP-RO
-    port: 9002
-    server: 193.176.84.22
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇱🇻LV_2|340KB/s|26%|TK-LV|YT-US|NF-LV|GPT⁺-LV|GM-US|CL-LV|SP-LV
-    port: 3056
-    server: 195.123.212.87
-    type: http
-    udp: true
-  - name: 🇨🇿CZ_1|178KB/s|0%|TK-CZ|YT-CZ|NF-CZ|D+-CZ|GPT⁺-CZ|GM-CZ|CL-CZ|SP-CZ
-    port: 443
-    server: 193.35.104.196
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇹🇭TH_1|25KB/s
-    port: 8888
-    server: 47.81.56.193
-    type: http
-    udp: true
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇺🇸US_28|86KB/s|26%|TK-US|YT-CN|NF-MX|GPT⁺-US|CL-US|SP-US
+    name: 🇺🇸US_25|85KB/s|26%|TK-US|YT-CN|NF-MX|GPT⁺-US|CL-US|SP-US
     network: tcp
     port: 443
     reality-opts:
@@ -909,361 +563,9 @@ proxies:
     xudp: true
     packet-encoding: xudp
     servername: www.amazon.com
-  - alterId: "0"
-    cipher: auto
-    name: 🇺🇸US_29|1.1MB/s|0%|TK-US|YT-US|NF-US|GPT⁺-US|CL-US|SP-US
-    network: tcp
-    port: 180
-    server: 82.198.246.97
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    xudp: true
-    packet-encoding: xudp
-  - client-fingerprint: chrome
-    encryption: none
-    name: 🇨🇦CA_1|685KB/s|55%|TK-ALISG|YT-US|NF-US|GPT⁺-CA|CL-CA|SP-CA
-    network: ws
-    port: 8443
-    server: maple.adaspoloandco.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: db3f09ae-23f2-42b8-abee-7b89fb392c5e
-    ws-opts:
-      headers:
-        Host: ""
-        User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/56.0.2924.87 Safari/537.36
-      path: /uploader.php
-    xudp: true
-    packet-encoding: xudp
-    servername: maple.adaspoloandco.com
-  - name: 🇮🇹IT_2|692KB/s|0%|TK-IT|YT-NL|NF-PL|D+-IT|GPT⁺-IT|GM-NL|CL-IT|SP-IT
-    network: ws
-    port: 443
-    server: itproxy4.lockdwn.com
-    type: vless
-    udp: true
-    uuid: e4737ce4-c646-44cc-9067-390e13c2a5f6
-    ws-opts:
-      headers:
-        Host: itproxy4.lockdwn.com
-        User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile
-          Safari/537.36
-      path: /
-    xudp: true
-    packet-encoding: xudp
-    servername: itproxy4.lockdwn.com
-  - name: 🇯🇵JP_3|12KB/s|0%|TK-ALISG|NF-JP|D+-JP|GPT-JP|CL-JP|SP-JP
-    network: tcp
-    port: 443
-    server: 137.220.221.179
-    type: vless
-    udp: true
-    uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
-    xudp: true
-    packet-encoding: xudp
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: 🇳🇱NL_9|32KB/s|3%|TK-USEASTRED|NF|GPT⁺-NL|CL-NL|SP-NL
-    network: tcp
-    port: 40443
-    reality-opts:
-      public-key: fWzCKXwvMXaacsl1DdFb1vKQ9l9cTK1G7udqmaYHL0Y
-      short-id: "01d1bf2d4755d40c"
-    server: 72.56.92.177
-    tls: true
-    type: vless
-    udp: true
-    uuid: 4480161e-2c59-4d37-8736-675c9af32bf1
-    xudp: true
-    packet-encoding: xudp
-    servername: deepl.com
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: 🇺🇸US_30|3.8MB/s|0%|TK-US|YT-DE|NF-AT|GPT⁺-DE|GM-DE|CL-DE|SP-US
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
-      short-id: "00bca5982f82d083"
-    server: 150.241.73.137
-    tls: true
-    type: vless
-    udp: true
-    uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-    xudp: true
-    packet-encoding: xudp
-    servername: eu-central.cendora.ru
-  - alpn:
-      - h2
-      - http/1.1
-    alterId: "0"
-    cipher: auto
-    name: 🇬🇧GB_8|649KB/s|82%|TK-GB|YT-EG|NF-GB|GPT⁺-GB|GM-EG|CL-GB|SP-UK
-    network: raw
-    port: 2053
-    server: node-uk.connectsuite.org
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    udp: true
-    uuid: 72f2cbe4-2874-45b7-b6aa-b93077c10c72
-    xudp: true
-    packet-encoding: xudp
-    servername: node-uk.connectsuite.org
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: 🇳🇱NL_10|3.9MB/s|50%|TK-USEASTRED|YT-NL|NF-NL|GPT⁺-NL|GM-NL|CL-NL|SP-NL
-    network: tcp
-    port: 23576
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: "01"
-    server: 51.158.206.87
-    tls: true
-    type: vless
-    udp: true
-    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-    xudp: true
-    packet-encoding: xudp
-    servername: fuck.rkn
-  - encryption: none
-    name: 🇹🇷TR_2|2.7MB/s|0%|TK-ALISG|YT-TR|NF-TR|D+-TR|GPT⁺-TR|GM-TR|CL-TR|SP-TR
-    network: tcp
-    port: 58416
-    server: 212.87.199.122
-    type: vless
-    udp: true
-    uuid: 5626ce32-dad0-468b-952c-e53d609100f1
-    xudp: true
-    packet-encoding: xudp
-  - alpn:
-      - h2
-      - http/1.1
-    alterId: "0"
-    cipher: auto
-    name: 🇬🇧GB_9|94KB/s|82%|TK-GB|YT-EG|NF-GB|GPT⁺-GB|GM-EG|CL-GB|SP-UK
-    network: tcp
-    port: 2053
-    server: 51.38.71.147
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    udp: true
-    uuid: 72f2cbe4-2874-45b7-b6aa-b93077c10c72
-    xudp: true
-    packet-encoding: xudp
-    servername: node-uk.connectsuite.org
-  - client-fingerprint: chrome
-    name: 🇫🇷FR_4|47KB/s|TK-FR|NF-FR|D+-FR|GPT-FR|CL-FR|SP-FR
-    network: ws
-    password: humanity
-    port: 443
-    server: 104.16.174.109
-    skip-cert-verify: false
-    sni: www.ignitelimit.com
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile
-          Safari/537.36
-      path: /assignment
-  - alpn:
-      - ""
-    alterId: "0"
-    cipher: auto
-    name: 🇺🇸US_31|9KB/s|NF-DE|GPT⁺-DE|CL-DE|SP-DE
-    network: ws
-    port: 443
-    server: renderer-stream-2-62.mirra.now
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    udp: true
-    uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-    ws-opts:
-      headers: {}
-      path: /api/v1/gpu-stream/socket
-    xudp: true
-    packet-encoding: xudp
-    servername: renderer-stream-2-62.mirra.now
-  - alterId: "0"
-    cipher: auto
-    name: 🇭🇰HK_5|1.0MB/s|0%|TK-ALISG|YT-HK|NF-HK
-    network: ws
-    port: 443
-    server: 47.242.79.198
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    udp: true
-    uuid: f23bb427c1f94373876c2f43e9f790f3
-    ws-opts:
-      headers:
-        Host: ejOMsxPtP19APyGL.v.3dns.vip
-      path: /ws-vmess
-    xudp: true
-    packet-encoding: xudp
-    servername: ejOMsxPtP19APyGL.v.3dns.vip
-  - alterId: "0"
-    cipher: auto
-    name: 🇭🇰HK_6|1.8MB/s|0%|TK-ALISG|NF
-    network: ws
-    port: 443
-    server: ejomsxptp19apygl.v.3dns.vip
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    udp: true
-    uuid: f23bb427c1f94373876c2f43e9f790f3
-    ws-opts:
-      headers:
-        Host: ejOMsxPtP19APyGL.v.3dns.vip
-      path: /ws-vmess
-    xudp: true
-    packet-encoding: xudp
-    servername: ejOMsxPtP19APyGL.v.3dns.vip
-  - client-fingerprint: chrome
-    name: 🇫🇷FR_5|2KB/s|35%|TK-FR|D+-FR|GPT-FR
-    network: ws
-    password: humanity
-    port: 443
-    server: 104.18.22.63
-    skip-cert-verify: false
-    sni: www.ignitelimit.com
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/56.0.2924.87 Safari/537.36
-      path: /assignment
   - down: ""
     fingerprint: ""
-    name: 🇺🇸US_32|8.1MB/s|2%|TK-US|YT-US|NF-US|GPT⁺-US|GM-US|CL-US|SP-US
-    obfs: ""
-    obfs-password: ""
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    port: 443
-    server: vpn-us-002.fastervpn.world
-    skip-cert-verify: true
-    sni: 127.0.0.1
-    type: hysteria2
-    up: ""
-    udp: true
-  - client-fingerprint: chrome
-    encryption: none
-    name: 🇺🇸US_33|3.7MB/s|24%|TK-US|YT-US|NF|D+-US|GPT⁺-VN|GM-US|SP-US
-    network: ws
-    port: 2087
-    server: 104.19.215.97
-    tls: true
-    type: vless
-    udp: true
-    uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-    ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
-      headers:
-        Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/62.0.3202.89 Safari/537.36
-      max-early-data: 2560
-      path: /
-    xudp: true
-    packet-encoding: xudp
-    servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  - down: ""
-    fingerprint: ""
-    name: 🇦🇪AE_3|3.0MB/s|0%|YT-GB|NF-LV|GPT⁺-EE|GM-GB|CL-EE|SP-EE
-    obfs: salamander
-    obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
-    password: cd74c0a406664a5bc0bac098220a2468
-    port: 443
-    server: ee1.sferavpn.pro
-    skip-cert-verify: false
-    sni: ee1.sferavpn.pro
-    type: hysteria2
-    up: ""
-    udp: true
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: 🇺🇸US_34|7.7MB/s|74%|TK-US|YT-RU|NF-US|D+-US|GPT⁺-US|CL-US|SP-US
-    network: raw
-    port: 8443
-    reality-opts:
-      public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
-      short-id: ""
-    server: 31.58.50.200
-    tls: true
-    type: vless
-    udp: true
-    uuid: 00dda8ac-c263-4106-a740-1e4478a7dc44
-    xudp: true
-    packet-encoding: xudp
-    servername: tradingview.com
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: 🇺🇸US_35|284KB/s|100%|TK-US|YT-US|NF-US|GPT⁺-US|GM-US|CL-US|SP-US
-    network: tcp
-    port: 18662
-    reality-opts:
-      public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-      short-id: "48050fab"
-    server: 67.220.73.204
-    tls: true
-    type: vless
-    udp: true
-    uuid: 814bd064-544d-4255-a070-5705c03f6da9
-    xudp: true
-    packet-encoding: xudp
-    servername: www.apple.com
-  - cipher: aes-256-cfb
-    name: 🇨🇦CA_2|5.9MB/s|33%|TK-ALISG|YT-GB|NF-US|GPT⁺-CA|GM-GB|CL-CA|SP-CA
-    password: 7eadc6dbe2ae
-    port: 65443
-    server: 154.127.56.212
-    type: ss
-    udp: true
-  - name: 🇯🇵JP_4|121KB/s|0%|TK-ALISG|YT-US|NF-HK|D+-JP|SP-JP
-    network: raw
-    port: 44915
-    server: 134.122.202.244
-    type: vless
-    udp: true
-    uuid: 0ca45842-71e2-47fe-889f-9e75f93ea459
-    xudp: true
-    packet-encoding: xudp
-  - client-fingerprint: chrome
-    name: 🇫🇷FR_6|282KB/s|43%|TK-FR|NF-FR|GPT⁺-FR|CL-FR|SP-FR
-    network: ws
-    port: 443
-    server: 4.240.110.47
-    tls: true
-    type: vless
-    udp: true
-    uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-    ws-opts:
-      headers:
-        Host: bab-6.site
-        User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/57.0.2987.133 Safari/537.36
-      path: /vws/
-    xudp: true
-    packet-encoding: xudp
-    servername: bab-6.site
-  - down: ""
-    fingerprint: ""
-    name: 🇸🇬SG_3|3.2MB/s|1%|TK-ALISG|YT-SG|NF-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG
+    name: 🇸🇬SG_3|3.0MB/s|1%|TK-ALISG|YT-SG|NF-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG
     obfs: ""
     obfs-password: ""
     password: qQe1z5kU8kN6SlKnDt9Ru3Qp
@@ -1274,102 +576,885 @@ proxies:
     type: hysteria2
     up: ""
     udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: 🇳🇱NL_5|4.1MB/s|50%|TK-USEASTRED|YT-US|NF-DE|GPT⁺-NL|CL-NL|SP-NL
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+    port: 443
+    server: 82.38.31.57
+    type: ss
+    udp: true
+  - name: 🇳🇱NL_6|961KB/s|32%|TK-USEASTRED|YT-NL|NF-NL|GPT⁺-NL|GM-NL|CL-NL|SP-NL
+    port: 443
+    server: 149.36.51.129
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: 🇺🇸US_26|2.0MB/s|74%|TK-US|YT-US|NF-US|GPT⁺-US|GM-US|CL-US|SP-US
+    port: 443
+    server: berniesbodybla.fun
+    sni: berniesbodybla.fun
+    tls: true
+    type: http
+    udp: true
+  - name: 🇨🇴CO_1|1.2MB/s|0%|TK-ALISG|NF-CO|D+-CO|GPT⁺-CO|GM-CO|CL-CO|SP-CO
+    port: 8089
+    server: 190.145.193.46
+    type: http
+    udp: true
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇬🇷GR_1|2.1MB/s|0%|TK-GR|YT-RU|NF-IT|GPT⁺-GR|CL-GR|SP-GR
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk
+      short-id: "ff776ff77be48b88"
+    server: gr.freeinternat.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: dabb9a19-03ab-4cdf-8963-d3c45eb0f80d
+    xudp: true
+    packet-encoding: xudp
+    servername: gr.freeinternat.com
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇩🇪DE_1|634KB/s|0%|TK-DE|YT-DE|NF-DE|GPT⁺-DE|GM-DE|CL-DE|SP-DE
+    network: tcp
+    port: 8443
+    reality-opts:
+      public-key: PNofg-BBceWRX1YMelo9Xy5dFnh_vY8J0c54llXfDSk
+      short-id: "31e056654ec129aa"
+    server: 2.27.43.112
+    tls: true
+    type: vless
+    udp: true
+    uuid: d5530551-5e9a-4ac5-8539-cee87e38d9e2
+    xudp: true
+    packet-encoding: xudp
+    servername: auto.quattro-tech.ru
+  - encryption: none
+    name: 🇩🇪DE_2|291KB/s|18%|TK-DE|YT-US|NF-DE|GPT⁺-DE|CL-DE|SP-DE
+    network: ws
+    port: 2096
+    server: 185.140.12.160
+    type: vless
+    udp: true
+    uuid: 70e20b2e-3b1f-4c25-9a3d-9240570391bb
+    ws-opts:
+      headers:
+        Host: ""
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/53.0.2785.143 Safari/537.36
+      path: /
+    xudp: true
+    packet-encoding: xudp
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: 🇺🇸US_27|441KB/s|0%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|CL-US|SP-US
+    network: ws
+    port: 443
+    server: 151.101.193.242
+    tls: true
+    type: vless
+    udp: true
+    uuid: b0cf4078-96b8-4e11-80a8-0f9352565a16
+    ws-opts:
+      headers:
+        Host: adheres-scruple.quick-cdn.net
+        User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile
+          Safari/537.36
+      path: /ws
+    xudp: true
+    packet-encoding: xudp
+    servername: adheres-scruple.quick-cdn.net
+  - cipher: chacha20-ietf-poly1305
+    name: 🇳🇱NL_7|1.7MB/s|51%|TK-USEASTRED|YT-US|NF-DE|GPT⁺-NL|CL-NL|SP-NL
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+    port: 8080
+    server: 82.38.31.39
+    type: ss
+    udp: true
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇫🇷FR_3|3.4MB/s|43%|TK-FR|YT-FR|NF-BE|GPT⁺-FR|GM-FR|CL-FR|SP-FR
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: 0jolgptjjXxVsUgMPN_mcoyHET2uHQ7onbAMZ7uCc2w
+      short-id: "8d0a77a398415b0e"
+    server: sv-fr2.cdnturbo.net
+    tls: true
+    type: vless
+    udp: true
+    uuid: b4c5a66f-1f66-4262-b72d-c6aa661abc2c
+    xudp: true
+    packet-encoding: xudp
+    servername: www.apple.com
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇺🇸US_28|626KB/s|26%|TK-US|YT-CN|NF-MX|GPT⁺-US|CL-US|SP-US
+    network: tcp
+    port: 28396
+    reality-opts:
+      public-key: 4GGEAAeV42G9qjh098cFNm7feTpssWW2vw7gaIY0J0E
+      short-id: "7403a0a9d45e89"
+    server: 172.233.156.123
+    tls: true
+    type: vless
+    udp: true
+    uuid: 4bd81205-c104-4ee5-8d1a-7f4c458be7a4
+    xudp: true
+    packet-encoding: xudp
+    servername: www.tesla.com
+  - client-fingerprint: chrome
+    name: 🇫🇷FR_4|1.2MB/s|35%|TK-FR|YT-US|NF-FR|D+-FR|GPT⁺-FR|CL-FR|SP-FR
+    network: ws
+    password: humanity
+    port: 443
+    server: 185.220.100.168
+    skip-cert-verify: false
+    sni: www.calmlunch.com
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/53.0.2785.143 Safari/537.36
+      path: /assignment
+  - client-fingerprint: chrome
+    name: 🇫🇷FR_5|1.4MB/s|35%|TK-FR|YT-US|NF-FR|D+-FR|GPT⁺-FR|CL-FR|SP-FR
+    network: ws
+    password: humanity
+    port: 443
+    server: 104.16.174.37
+    skip-cert-verify: false
+    sni: www.ignitelimit.com
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.139 Safari/537.36
+      path: /assignment
+  - client-fingerprint: chrome
+    name: 🇫🇷FR_6|1.5MB/s|35%|TK-FR|YT-US|NF-FR|D+-FR|GPT⁺-FR|CL-FR|SP-FR
+    network: ws
+    password: humanity
+    port: 443
+    server: 104.18.152.175
+    skip-cert-verify: false
+    sni: www.ignitelimit.com
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/69.0.3497.100 Safari/537.36
+      path: /assignment
+  - client-fingerprint: chrome
+    name: 🇫🇷FR_7|1.3MB/s|35%|TK-FR|YT-US|NF-FR|D+-FR|GPT⁺-FR|CL-FR|SP-FR
+    network: ws
+    password: humanity
+    port: 443
+    server: 104.18.152.204
+    skip-cert-verify: false
+    sni: www.ignitelimit.com
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/44.0.2403.157 Safari/537.36
+      path: /assignment
   - down: ""
     fingerprint: ""
-    name: 🇷🇴RO_4|3.4MB/s|13%|TK-RO|YT-RU|NF-RO|GPT⁺-RO|CL-RO|SP-RO
-    obfs: ""
-    obfs-password: ""
-    password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-    port: 8443
-    server: 85.204.107.175
+    name: 🇭🇰HK_2|842KB/s|0%|TK-ALISG|YT-HK|NF-LK|SP-HK
+    obfs: salamander
+    obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
+    password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
+    port: 5010
+    server: nas.aizhzo.com
     skip-cert-verify: true
-    sni: hopp-romania-new.roxa.org
+    sni: 127.0.0.1
     type: hysteria2
     up: ""
     udp: true
+  - client-fingerprint: chrome
+    encryption: none
+    name: 🇺🇸US_29|292KB/s|24%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US
+    network: ws
+    port: 443
+    server: 104.18.0.1
+    tls: true
+    type: vless
+    udp: true
+    uuid: 3ccba794-1c6d-48a8-acf2-f5caf0e69d86
+    ws-opts:
+      headers:
+        Host: all.speedtest03.ccwu.cc
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/41.0.2272.101 Safari/537.36
+      path: /
+    xudp: true
+    packet-encoding: xudp
+    servername: all.speedtest03.ccwu.cc
+  - name: 🇺🇸US_30|583KB/s|24%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US
+    network: ws
+    port: 8880
+    server: codecanyon.net
+    type: vless
+    udp: true
+    uuid: 692d631b-cff1-4ed4-ba81-f716388fff46
+    ws-opts:
+      headers:
+        Host: odd-darkness-57ce.334-a29.workers.dev
+        User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /pyip=ProxyIP.US.CMLiussss.net
+    xudp: true
+    packet-encoding: xudp
+  - encryption: none
+    name: 🇺🇸US_31|355KB/s|24%|TK-US|YT-US|NF-US|D+-US|GPT⁺-KR|GM-US|CL-KR|SP-US
+    network: ws
+    port: 8880
+    server: 172.66.200.130
+    type: vless
+    udp: true
+    uuid: a51d8a82-faec-44f4-8882-441a2e7f0ce4
+    ws-opts:
+      headers:
+        Host: spring-math-5c8c.434.workers.dev
+        User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile
+          Safari/537.36
+      path: /pyip=ProxyIP.KR.CMLiussss.net
+    xudp: true
+    packet-encoding: xudp
+  - name: 🇺🇸US_32|358KB/s|24%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US
+    network: ws
+    port: 8880
+    server: www.zsu.gov.ua
+    type: vless
+    udp: true
+    uuid: bfa3aaaf-41d3-4ec4-8453-e9827d7e7b30
+    ws-opts:
+      headers:
+        Host: crimson-mode-f8de.432-9e1.workers.dev
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/46.0.2490.86 Safari/537.36
+      path: /pyip=ProxyIP.US.CMLiussss.net
+    xudp: true
+    packet-encoding: xudp
+  - encryption: none
+    name: 🇺🇸US_33|445KB/s|24%|TK-US|YT-US|NF-US|D+-US|GPT⁺-KR|GM-US|CL-KR|SP-US
+    network: ws
+    port: 8880
+    server: 162.159.140.78
+    type: vless
+    udp: true
+    uuid: 363202dd-0521-46b4-b4e2-443dfbaa2ce1
+    ws-opts:
+      headers:
+        Host: flat-heart-b60a.401-306.workers.dev
+        User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+      path: /pyip=ProxyIP.KR.CMLiussss.net
+    xudp: true
+    packet-encoding: xudp
+  - name: 🇺🇸US_34|300KB/s|24%|TK-US|YT-US|NF-US|D+-US|GPT⁺-JP|GM-US|CL-JP|SP-US
+    network: ws
+    port: 8880
+    server: 162.159.140.78
+    type: vless
+    udp: true
+    uuid: a8c27bd6-e395-4f9b-a75d-1c3bc6b1f83a
+    ws-opts:
+      headers:
+        Host: long-boat-7113.303-08c.workers.dev
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/61.0.3163.79 Safari/537.36
+      path: /pyip=ProxyIP.JP.CMLiussss.net
+    xudp: true
+    packet-encoding: xudp
+  - name: 🇺🇸US_35|406KB/s|24%|TK-US|YT-US|NF-US|D+-US|GPT⁺-JP|GM-US|CL-JP|SP-US
+    network: ws
+    port: 8880
+    server: 104.16.106.213
+    type: vless
+    udp: true
+    uuid: b4a18856-301d-4bb2-b729-6afcb700faf5
+    ws-opts:
+      headers:
+        Host: red-flower-a2bf.363.workers.dev
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      path: /pyip=ProxyIP.JP.CMLiussss.net
+    xudp: true
+    packet-encoding: xudp
+  - name: 🇺🇸US_36|307KB/s|24%|TK-US|YT-US|NF-US|D+-US|GPT⁺-KR|GM-US|CL-KR|SP-US
+    network: ws
+    port: 8880
+    server: www.gov.ua
+    type: vless
+    udp: true
+    uuid: 48b1d8af-1720-4462-a0ec-de493331ceb3
+    ws-opts:
+      headers:
+        Host: square-mountain-1d69.356-977.workers.dev
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.110 Safari/537.36
+      path: /pyip=ProxyIP.KR.CMLiussss.net
+    xudp: true
+    packet-encoding: xudp
+  - name: 🇺🇸US_37|444KB/s|24%|TK-US|YT-US|NF-US|D+-US|GPT⁺-KR|GM-US|CL-KR|SP-US
+    network: ws
+    port: 8880
+    server: www.baipiao.eu.org
+    type: vless
+    udp: true
+    uuid: 8c9be850-32a0-4cc1-809b-4a5161413a90
+    ws-opts:
+      headers:
+        Host: sparkling-frog-59e1.256-d4e.workers.dev
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/47.0.2526.106 Safari/537.36
+      path: /pyip=ProxyIP.KR.CMLiussss.net
+    xudp: true
+    packet-encoding: xudp
+  - name: 🇺🇸US_38|358KB/s|24%|TK-US|YT-US|NF-US|D+-US|GPT⁺-SG|GM-US|CL-SG|SP-US
+    network: ws
+    port: 8880
+    server: www.gov.ua
+    type: vless
+    udp: true
+    uuid: a62a4c64-2270-4d41-828b-2591906c48ba
+    ws-opts:
+      headers:
+        Host: sweet-disk-a026.253-54b.workers.dev
+        User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile
+          Safari/537.36
+      path: /pyip=ProxyIP.SG.CMLiussss.net
+    xudp: true
+    packet-encoding: xudp
+  - encryption: none
+    name: 🇺🇸US_39|333KB/s|TK-US|YT-US|NF-US|D+-US|GM-US|SP-US
+    network: ws
+    port: 8880
+    server: cf6.466688.xyz
+    type: vless
+    udp: true
+    uuid: 50c91104-c1fc-471e-914f-3ad252a0a34c
+    ws-opts:
+      headers:
+        Host: quiet-snowflake-e1dd.374-ac3.workers.dev
+        User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/55.0.2883.87 Safari/537.36
+      path: /pyip=ProxyIP.US.CMLiussss.net@https://t.me/QiangLieTuiJian
+    xudp: true
+    packet-encoding: xudp
+  - encryption: none
+    name: 🇺🇸US_40|337KB/s|TK-US|YT-US|NF-US|D+-US|GM-US|SP-US
+    network: ws
+    port: 8880
+    server: cf9.466688.xyz
+    type: vless
+    udp: true
+    uuid: 9be3bb59-c281-4fee-ae3d-7cf6c4b47eb4
+    ws-opts:
+      headers:
+        Host: late-mountain-6801.355.workers.dev
+        User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/46.0.2490.80 Safari/537.36
+      path: /pyip=ProxyIP.JP.CMLiussss.net@https://t.me/QiangLieTuiJian
+    xudp: true
+    packet-encoding: xudp
+  - encryption: none
+    name: 🇺🇸US_41|291KB/s|24%|TK-US|YT-US|NF-US|D+-US|GPT⁺-SG|GM-US|CL-US|SP-US
+    network: ws
+    port: 8880
+    server: 104.16.72.41
+    type: vless
+    udp: true
+    uuid: 15ce0fde-88e2-42b0-91e6-e4a1b4568f6e
+    ws-opts:
+      headers:
+        Host: old-truth-de8a.110-187.workers.dev
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/70.0.3538.67 Safari/537.36
+      path: /pyip
+    xudp: true
+    packet-encoding: xudp
+  - client-fingerprint: random
+    encryption: none
+    name: 🇺🇸US_42|1.6MB/s|24%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US
+    network: ws
+    port: 2083
+    server: 172.64.189.5
+    tls: true
+    type: vless
+    udp: true
+    uuid: 8525fe74-67e6-4a55-8a26-95f227bd1384
+    ws-opts:
+      headers:
+        Host: calm-smoke-1a21.alvlirm6262.workers.dev
+        User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/42.0.2311.90 Safari/537.36
+      path: /
+    xudp: true
+    packet-encoding: xudp
+    servername: calm-smoke-1a21.alvlirm6262.workers.dev
+  - encryption: none
+    name: 🇺🇸US_43|343KB/s|24%|TK-US|YT-US|NF-US|D+-US|GPT⁺-JP|GM-US|CL-JP|SP-US
+    network: ws
+    port: 8880
+    server: 104.18.189.234
+    type: vless
+    udp: true
+    uuid: 8e7ce77a-d889-4dbf-b095-1d0eca88f6dc
+    ws-opts:
+      headers:
+        Host: broad-bread-2a6d.433-b9b.workers.dev
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      path: /pyip=ProxyIP.JP.CMLiussss.net
+    xudp: true
+    packet-encoding: xudp
+  - cipher: chacha20-ietf-poly1305
+    name: 🇳🇱NL_8|867KB/s|80%|TK-USEASTRED|YT-NL|NF-DE|GPT⁺-NL|GM-NL|CL-NL|SP-NL
+    password: k1dBOmOB4oqi7Ump37a1bQ
+    port: 8080
+    server: 82.38.31.185
+    type: ss
+    udp: true
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: 🇺🇸US_44|186KB/s|24%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US
+    network: ws
+    port: 2083
+    server: 104.16.43.192
+    tls: true
+    type: vless
+    udp: true
+    uuid: 88e32d76-b49f-44ee-a90a-1ad01d542d55
+    ws-opts:
+      headers:
+        Host: ez-2cb1f5.sabzipolobamahi9.workers.dev
+        User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      path: /eyJqdW5rIjoiOWc3WUROOHZXemEiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
+    packet-encoding: xudp
+    servername: ez-2cB1f5.sabZIpolObAMAHi9.WORkerS.deV
+  - client-fingerprint: chrome
+    name: 🇺🇸US_45|353KB/s|TK-US|YT-US|NF-US|D+-US|GM-US|SP-US
+    network: ws
+    password: 19877587-ed94-4033-88cd-4ac50a5e8718
+    port: 443
+    server: 104.16.148.5
+    skip-cert-verify: false
+    sni: dimskiee.biz.id
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/63.0.3239.132 Safari/537.36
+      path: /WangCai-8
+  - down: ""
+    fingerprint: ""
+    name: 🇸🇬SG_4|3.3MB/s|1%|TK-ALISG|YT-SG|NF-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG
+    obfs: ""
+    obfs-password: ""
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    port: 443
+    server: 47.129.241.226
+    skip-cert-verify: true
+    sni: vpn-sg-001.fastervpn.world
+    type: hysteria2
+    up: ""
+    udp: true
+  - client-fingerprint: chrome
+    encryption: none
+    name: 🇺🇸US_46|1.5MB/s|24%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US
+    network: ws
+    port: 8443
+    server: 8.39.125.152
+    tls: true
+    type: vless
+    udp: true
+    uuid: 8525fe74-67e6-4a55-8a26-95f227bd1384
+    ws-opts:
+      headers:
+        Host: bitter-shadow-4fc5.alvlirm852.workers.dev
+        User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv)
+          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
+          Chrome/59.0.3071.125 Mobile Safari/537.36
+      path: /
+    xudp: true
+    packet-encoding: xudp
+    servername: bitter-shadow-4fc5.alvlirm852.workers.dev
+  - encryption: none
+    name: 🇺🇸US_47|351KB/s|TK-US|YT-US|NF-US|D+-US|GM-US|SP-US
+    network: ws
+    port: 8880
+    server: cf8.466688.xyz
+    type: vless
+    udp: true
+    uuid: 9b14cdbe-bcfe-4178-a674-3ad88a7c6f6a
+    ws-opts:
+      headers:
+        Host: summer-snow-c151.320-3ef.workers.dev
+        User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
+          Chrome/v1.0.0 Safari/538.1
+      path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
+    xudp: true
+    packet-encoding: xudp
+  - name: 🇺🇸US_48|401KB/s|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US
+    network: ws
+    port: 8880
+    server: 104.21.88.129
+    type: vless
+    udp: true
+    uuid: 70c16ec7-13f7-473b-b97d-06399f1481e3
+    ws-opts:
+      headers:
+        Host: mute-surf-0003.209.workers.dev
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/62.0.3202.89 Safari/537.36
+      path: /pyip=ProxyIP.US.CMLiussss.net
+    xudp: true
+    packet-encoding: xudp
+  - encryption: none
+    name: 🇺🇸US_49|385KB/s|24%|TK-US|YT-US|NF-US|D+-US|GPT⁺-KR|GM-US|CL-KR|SP-US
+    network: ws
+    port: 8880
+    server: 172.64.153.11
+    type: vless
+    udp: true
+    uuid: f12cc297-c9ce-4cdb-98d4-8e47c3f09644
+    ws-opts:
+      headers:
+        Host: weathered-union-5358.101-262.workers.dev
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.117 Safari/537.36
+      path: /
+    xudp: true
+    packet-encoding: xudp
+  - client-fingerprint: chrome
+    encryption: none
+    name: 🇺🇸US_50|291KB/s|24%|TK-ALISG|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US
+    network: ws
+    port: 443
+    server: ez-1bc8ab.sekiro-c18.workers.dev
+    tls: true
+    type: vless
+    udp: true
+    uuid: 7da33b25-cdd6-e481-afcf-c5d532361a70
+    ws-opts:
+      headers:
+        Host: ez-1bc8ab.sekiro-c18.workers.dev
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.77 Safari/537.36
+      path: /sync
+    xudp: true
+    packet-encoding: xudp
+    servername: ez-1bc8ab.sekiro-c18.workers.dev
+  - encryption: none
+    name: 🇺🇸US_51|319KB/s|24%|TK-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US
+    network: ws
+    port: 8880
+    server: 104.16.72.50
+    type: vless
+    udp: true
+    uuid: 15ce0fde-88e2-42b0-91e6-e4a1b4568f6e
+    ws-opts:
+      headers:
+        Host: old-truth-de8a.110-187.workers.dev
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/61.0.3163.100 Safari/537.36
+      path: /pyip
+    xudp: true
+    packet-encoding: xudp
+  - encryption: none
+    name: 🇺🇸US_52|375KB/s|24%|TK-US|YT-US|NF-US|D+-US|GPT⁺-KR|GM-US|CL-KR|SP-US
+    network: ws
+    port: 8880
+    server: 104.21.56.202
+    type: vless
+    udp: true
+    uuid: 31f345f3-b8eb-4ca6-8b14-bb555ae2c1f9
+    ws-opts:
+      headers:
+        Host: tiny-feather-4c41.227.workers.dev
+        User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi Note 5A Build/N2G47H; wv)
+          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
+          Chrome/63.0.3239.111 Mobile Safari/537.36
+      path: /pyip=ProxyIP.KR.CMLiussss.net
+    xudp: true
+    packet-encoding: xudp
+  - encryption: none
+    name: 🇺🇸US_53|379KB/s|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US
+    network: ws
+    port: 8880
+    server: cf6.466688.xyz
+    type: vless
+    udp: true
+    uuid: 00ff7e5f-9b6f-4401-aab9-4d044660411f
+    ws-opts:
+      headers:
+        Host: summer-bonus-aa63.52-c03.workers.dev
+        User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/49.0.2623.112 Safari/537.36
+      path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
+    xudp: true
+    packet-encoding: xudp
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    name: 🇺🇸US_54|343KB/s|TK-ALISG|YT-US|NF-US|D+-US|GPT⁺-DE|GM-US|SP-US
+    network: ws
+    password: Telegram_healer_config
+    port: 443
+    server: 172.67.156.87
+    skip-cert-verify: false
+    sni: tO6R63-kkCHIgHQM2.vXZ0dDUq7to7SU0cdQF.wOrKERS.Dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
+      path: /tr/yqf0HmXRcvB67eWDKZARhVo4Ts4
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+  - encryption: none
+    name: 🇺🇸US_55|323KB/s|TK-US|YT-US|NF-US|D+-US|GPT|GM-US|SP-US
+    network: ws
+    port: 8880
+    server: 198.71.232.30
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: vms.lifetime07.workers.dev
+        User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /
+    xudp: true
+    packet-encoding: xudp
+  - client-fingerprint: chrome
+    name: 🇺🇸US_56|339KB/s|24%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US
+    network: ws
+    port: 443
+    server: 104.24.156.119
+    tls: true
+    type: vless
+    udp: true
+    uuid: fd5d3c04-9a43-7702-e70d-a3c53ff216f4
+    ws-opts:
+      headers:
+        Host: ezpanslll.samankarami0686.workers.dev
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.113 Safari/537.36
+      path: /sync
+    xudp: true
+    packet-encoding: xudp
+    servername: ezpanslll.samankarami0686.workers.dev
+  - name: 🇺🇸US_57|309KB/s|24%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US
+    network: ws
+    port: 8880
+    server: 104.18.34.245
+    type: vless
+    udp: true
+    uuid: 6e857db2-ea80-48e1-903f-d5cf557c21ff
+    ws-opts:
+      headers:
+        Host: silent-snow-1a0d.241-b0a.workers.dev
+        User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/70.0.3538.102 Safari/537.36
+      path: /pyip=ProxyIP.US.CMLiussss.net
+    xudp: true
+    packet-encoding: xudp
+  - cipher: aes-256-cfb
+    name: 🇧🇬BG_1|3.7MB/s|18%|TK-BG|YT-BG|NF-RS|GPT⁺-BG|GM-BG|CL-BG|SP-BG
+    password: 9eeJ2fwnZA5Fxgz8
+    port: 9028
+    server: 213.183.63.60
+    type: ss
+    udp: true
+  - client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: 🇦🇪AE_4|463KB/s|0%|TK-USEASTRED|YT-RU|NF-US|D+-NL|GPT⁺-NL|CL-NL|SP-AE
+    network: raw
+    port: 8443
+    reality-opts:
+      public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+      short-id: ""
+    server: 31.58.181.88
+    tls: true
+    type: vless
+    udp: true
+    uuid: 306b4e17-e660-4739-bf96-fc7ec6aa7949
+    xudp: true
+    packet-encoding: xudp
+    servername: tradingview.com
+  - name: 🇨🇦CA_1|326KB/s|24%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US
+    network: ws
+    port: 8880
+    server: 188.114.97.6
+    type: vless
+    udp: true
+    uuid: f09f4baa-7688-4514-8062-c3ea8e319624
+    ws-opts:
+      headers:
+        Host: dark-leaf-93a1.440-02e.workers.dev
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/54.0.2840.99 Safari/537.36
+      path: /pyip=ProxyIP.US.CMLiussss.net
+    xudp: true
+    packet-encoding: xudp
+  - encryption: none
+    name: 🇺🇸US_58|479KB/s|TK-US|YT-US|NF-US|GM-US|SP-US
+    network: ws
+    port: 2086
+    server: 188.114.97.6
+    type: vless
+    udp: true
+    uuid: 98b6cb05-b5ab-4c82-8683-07de28f796a9
+    ws-opts:
+      headers:
+        Host: holy-glitter-39f9.wwewee2dasdds.workers.dev
+        User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/46.0.2490.80 Safari/537.36
+      path: /eyJqdW5rIjoiRHF6VWU4SmYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0
+    xudp: true
+    packet-encoding: xudp
+  - down: ""
+    fingerprint: ""
+    name: 🇺🇸US_59|3.5MB/s|0%|TK-US|YT-RO|NF-PL|GPT⁺-PL|GM-RO|CL-PL|SP-US
+    obfs: ""
+    obfs-password: ""
+    password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
+    port: 8443
+    server: 103.246.248.231
+    skip-cert-verify: true
+    sni: hopp-legend-se.roxa.org
+    type: hysteria2
+    up: ""
+    udp: true
+  - down: ""
+    fingerprint: ""
+    name: 🇳🇱NL_9|4.5MB/s|3%|TK-USEASTRED|YT-RU|NF-HU|D+-NL|GPT⁺-NL|CL-NL|SP-NL
+    obfs: ""
+    obfs-password: ""
+    password: BWAFlp8g53
+    port: 443
+    server: hys28.wba-pn.ru
+    skip-cert-verify: true
+    sni: hys28.wba-pn.ru
+    type: hysteria2
+    up: ""
+    udp: true
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: 🇨🇦CA_2|360KB/s|24%|TK-US|YT-US|NF-US|D+-US|GPT⁺-DE|GM-US|CL-DE|SP-US
+    network: ws
+    port: 2053
+    server: 188.114.97.1
+    tls: true
+    type: vless
+    udp: true
+    uuid: 0b3e7958-e5c4-498f-ab21-b49686f95d2d
+    ws-opts:
+      headers:
+        Host: bold-term-4edd.mbigspot.workers.dev
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/36.0.1985.125 Safari/537.36
+      path: /
+    xudp: true
+    packet-encoding: xudp
+    servername: bold-term-4edd.mbigspot.workers.dev
   - client-fingerprint: unsafe
-    name: 🇺🇸US_36|3.1MB/s|24%|TK-US|YT-US|NF|D+-US|GPT-KR|GM-US|CL-VN|SP-US
+    encryption: none
+    name: 🇺🇸US_60|1.7MB/s|24%|TK-US|YT-US|NF-US|D+-US|GPT⁺-CA|GM-US|CL-US|SP-US
     network: ws
     port: 443
     server: 188.114.97.6
     tls: true
     type: vless
     udp: true
-    uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+    uuid: 30235bbe-f791-4e53-89f9-5d9363af9b0a
     ws-opts:
       headers:
-        Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/46.0.2490.80 Safari/537.36
+        Host: sie704.pages.dev
+        User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
+          (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
       path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
     xudp: true
     packet-encoding: xudp
-    servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
-  - encryption: none
-    name: 🇳🇱NL_11|412KB/s|23%|NF-NL|GPT⁺|CL-NL|SP-NL
-    network: ws
-    port: 80
-    server: sc-thenetherlands2.09vpn.com
-    type: vless
-    udp: true
-    uuid: e73df646-1f62-41bf-8c50-653497d603d0
-    ws-opts:
-      headers:
-        Host: sc-thenetherlands2.09vpn.com
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/46.0.2490.86 Safari/537.36
-      path: /vless/
-    xudp: true
-    packet-encoding: xudp
-  - client-fingerprint: chrome
+    servername: sie704.pages.dev
+  - client-fingerprint: firefox
     flow: xtls-rprx-vision
-    name: 🇬🇧GB_10|564KB/s|55%|TK-GB|YT-RU|NF-GB|GPT⁺-GB|CL-GB|SP-UK
-    network: raw
+    name: 🇬🇧GB_4|3.7MB/s|0%|TK-GB|YT-GB|NF-GB|GPT⁺-GB|GM-GB|CL-GB|SP-UK
+    network: tcp
     port: 443
     reality-opts:
       public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
       short-id: "fd55b698ee8c3629"
-    server: 95.154.237.47
+    server: 78.129.150.110
     tls: true
     type: vless
     udp: true
-    uuid: b113f831-8658-467f-a819-927d16a54d6a
+    uuid: 7decce18-91ef-4cbd-8b0c-159f88f8bb9c
     xudp: true
     packet-encoding: xudp
-    servername: lanacion.com.ar
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: 🇨🇦CA_3|3.2MB/s|32%|TK-ALISG|YT-AU|NF-AU|GPT⁺-AU|GM-AU|CL-AU|SP-AU
-    network: tcp
+    servername: strapi.io
+  - alterId: "0"
+    cipher: auto
+    name: 🇬🇧GB_5|1.3MB/s|23%|TK-GB|YT-CN|NF-GB|GPT⁺-GB|CL-GB|SP-UK
+    network: ws
     port: 443
-    reality-opts:
-      public-key: qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0
-      short-id: "0f4d3210977f51a5"
-    server: 51.161.199.124
+    server: 172.67.176.245
+    skip-cert-verify: false
     tls: true
-    type: vless
+    type: vmess
     udp: true
-    uuid: cba066ac-45d9-4bbc-bcbe-672a9faed36b
+    uuid: 0632bfa9-b15c-4257-8c75-32f7c0c53b27
+    ws-opts:
+      headers:
+        Host: cg1c12.waimaojd.com
+      path: /api/v1/graphql
     xudp: true
     packet-encoding: xudp
-    servername: suetinklerartglass.co.uk
-  - name: 🇷🇴RO_5|63KB/s|51%|TK-RO|NF-RO|GPT⁺-RO|GM-RO|CL-RO|SP-RO
-    port: 9002
-    server: 193.176.84.34
+    servername: cg1c12.waimaojd.com
+  - auth: hysteria2_fastlane_eoa3x0r8k:6GudDh3lTuhL0Ma2RlGP1MOcHTPASzK4
+    name: 🇳🇱NL_10|3.9MB/s|0%|TK-USEASTRED|YT-RU|NF-DE|D+-NL|GPT⁺-NL|GM-US|CL-NL|SP-NL
+    password: hysteria2_fastlane_eoa3x0r8k:6GudDh3lTuhL0Ma2RlGP1MOcHTPASzK4
+    port: 1935
+    server: 144.31.135.204
     skip-cert-verify: true
-    sni: www.bing.com
-    tls: true
-    type: http
-    udp: true
-  - name: 🇷🇴RO_6|31KB/s|51%|TK-RO|NF-RO|GPT⁺-RO|GM-RO|CL-RO|SP-RO
-    port: 9002
-    server: 193.176.84.31
-    skip-cert-verify: true
-    sni: www.bing.com
-    tls: true
-    type: http
+    sni: nl2.h.fastlanehosting.ru
+    type: hysteria2
     udp: true
 proxy-groups:
   - name: 🚀 节点选择
