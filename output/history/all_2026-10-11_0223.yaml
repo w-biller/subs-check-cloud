@@ -1,7 +1,7 @@
 proxies:
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_1|39KB/s|0%|NF-US|D+-US|GPT⁺-US|CL-US"
+      name: "\U0001F1FA\U0001F1F8US_32|538KB/s|F002-260618 01"
       network: tcp
       port: "10001"
       reality-opts:
@@ -14,7 +14,7 @@ proxies:
       udp: true
       uuid: 9c79aceb-4649-44ea-9698-b5e9ecf6d6da
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1FF\U0001F1E6ZA_1|2.3MB/s|80%|TK-ALISG|YT-US|NF-BR|GPT⁺-ZA|CL-ZA|SP-ZA"
+      name: "\U0001F1FF\U0001F1E6ZA-102.133.165.160-0114"
       password: Xsy8Ox4yOV3xLlpxtjzs3X
       port: 16233
       server: 102.133.165.160
@@ -22,7 +22,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_1|4.6MB/s|25%|TK-USEASTRED|YT-NL|NF-NL|GPT⁺-NL|GM-NL|CL-NL|SP-NL"
+      name: "\U0001F1F3\U0001F1F1NL_44|6.8MB/s|C002-260622 01"
       network: raw
       port: "23576"
       reality-opts:
@@ -36,18 +36,18 @@ proxies:
       uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
       xudp: true
     - cipher: aes-256-gcm
-      name: "\U0001F1EF\U0001F1F5JP_1|341KB/s|8%|TK-ALISG|YT-SG|NF-JP|GPT⁺-JP|CL-JP|SP-JP"
+      name: "\U0001F1EF\U0001F1F5JP-84.247.155.196-0203"
       password: 3eOFeNssde7PYYMv
       port: 80
       server: 84.247.155.196
       type: ss
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_2|4.2MB/s|54%|TK-USEASTRED|YT-NL|NF-DE|GPT⁺-NL|CL-NL|SP-NL"
+      name: "\U0001F1EC\U0001F1E7GB-82.38.31.49-0107"
       password: oZIoA69Q8yhcQV8ka3Pa3A
       port: 8080
       server: 82.38.31.49
       type: ss
-    - name: "\U0001F1F3\U0001F1F1NL_3|2.1MB/s|17%|TK-USEASTRED|YT-NL|NF-NL|GPT⁺-NL|GM-NL|CL-NL|SP-NL"
+    - name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_c745045d"
       port: 443
       server: 185.246.153.28
       skip-cert-verify: true
@@ -55,7 +55,7 @@ proxies:
       tls: true
       type: http
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_4|2.5MB/s|0%|TK-USEASTRED|YT-US|NF-DE|GPT⁺-NL|CL-NL|SP-NL"
+      name: "\U0001F1F3\U0001F1F1NL_87|2.2MB/s|A004-260618 01"
       password: oZIoA69Q8yhcQV8ka3Pa3A
       port: "443"
       server: 193.29.139.235
@@ -64,7 +64,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_5|3.4MB/s|29%|TK-USEASTRED|YT-NL|NF-NL|GPT⁺-NL|GM-NL|CL-NL|SP-NL"
+      name: "\U0001F1F3\U0001F1F1NL_47|6.8MB/s|C002-260622 01"
       network: raw
       port: "23576"
       reality-opts:
@@ -79,7 +79,7 @@ proxies:
       xudp: true
     - down: ""
       fingerprint: ""
-      name: "\U0001F1ED\U0001F1F0HK_1|2.8MB/s|0%|TK-ALISG|YT-CN|NF-HK|D+-HK|SP-HK"
+      name: 香港 07
       obfs: ""
       obfs-password: ""
       password: H7mP2xY9kJ4nQ8wR5tF6vB3z
@@ -90,21 +90,21 @@ proxies:
       type: hysteria2
       up: ""
     - cipher: aes-256-gcm
-      name: "\U0001F1E9\U0001F1EADE_1|2.2MB/s|25%|TK-DE|YT-EG|NF-DE|GPT⁺-DE|GM-EG|CL-DE|SP-DE"
+      name: "\U0001F1E9\U0001F1EADE_24|2.0MB/s|A004-260618 01"
       password: kKEd0rBrd56Furjz
       port: "443"
       server: 2.58.81.221
       type: ss
       udp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_6|4.5MB/s|54%|TK-USEASTRED|YT-US|NF-DE|GPT⁺-NL|CL-NL|SP-NL"
+      name: "\U0001F1F3\U0001F1F1NL_104|7.2MB/s|A004-260618 01"
       password: oZIoA69Q8yhcQV8ka3Pa3A
       port: "443"
       server: 82.38.31.175
       type: ss
       udp: true
     - client-fingerprint: unsafe
-      name: "\U0001F1EB\U0001F1F7FR_1|2.3MB/s|0%|TK-FR|YT-US|NF-FR|D+-FR|GPT⁺-FR|CL-FR|SP-FR"
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-9091"
       network: ws
       password: humanity
       port: "443"
@@ -118,7 +118,7 @@ proxies:
             User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36
         path: /assignment
     - client-fingerprint: firefox
-      name: "\U0001F1EF\U0001F1F5JP_2|1009KB/s|37%|TK-ALISG|YT-SG|NF-JP|D+-GB|GPT⁺-JP|GM-SG|CL-JP|SP-UK"
+      name: "\U0001F1EF\U0001F1F5JP_32|521KB/s|A004-260618 01"
       network: raw
       port: "2053"
       reality-opts:
@@ -132,7 +132,7 @@ proxies:
       uuid: b4caaf57-ad77-4948-a6f5-51b3513799bf
       xudp: true
     - client-fingerprint: chrome
-      name: "\U0001F1EB\U0001F1F7FR_2|1003KB/s|0%|TK-FR|YT-US|NF-FR|D+-FR|GPT⁺-FR|CL-FR|SP-FR"
+      name: "\U0001F1EB\U0001F1F7FR_2193|1.3MB/s|M003-260806 01"
       network: ws
       password: humanity
       port: "2053"
@@ -147,7 +147,7 @@ proxies:
         path: /assignment
     - down: ""
       fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_2|3.5MB/s|4%|TK-US|YT-US|NF-US|GPT-US|GM-US|CL-US|SP-US"
+      name: "\U0001F1FA\U0001F1F8US_14|866KB/s|C002-260622 01"
       obfs: ""
       obfs-password: ""
       password: bce6c821-200d-421f-bf3d-7159e5246ea0
@@ -158,7 +158,7 @@ proxies:
       type: hysteria2
       up: ""
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_7|2.0MB/s|54%|TK-USEASTRED|YT-US|NF-DE|GPT⁺-NL|CL-NL|SP-NL"
+      name: "\U0001F1EC\U0001F1E7GB-82.38.31.174-0093"
       password: oZIoA69Q8yhcQV8ka3Pa3A
       port: 8080
       server: 82.38.31.174
@@ -166,7 +166,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_2|4.5MB/s|67%|TK-DE|YT-DE|NF|GPT⁺-DE|GM-DE|CL-DE|SP-DE"
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-914"
       network: tcp
       port: "443"
       reality-opts:
@@ -180,7 +180,7 @@ proxies:
       uuid: d65cc14c-f53f-4fe2-b262-97856601319c
       xudp: true
     - cipher: aes-256-cfb
-      name: "\U0001F1F1\U0001F1F9LT_1|4.7MB/s|8%|TK-LT|YT-LT|NF-PL|GPT⁺-LT|GM-LT|CL-LT|SP-LT"
+      name: "\U0001F1F1\U0001F1F9LT_4|2.0MB/s|A004-260618 01"
       password: y9VURyNzJWNRYEGQ
       port: "9008"
       server: 195.238.126.20
@@ -188,7 +188,7 @@ proxies:
       udp: true
     - down: ""
       fingerprint: ""
-      name: "\U0001F1EB\U0001F1F7FR_3|847KB/s|0%|TK-FR|YT-FR|NF-HU|GPT⁺-FR|GM-FR|CL-FR|SP-FR"
+      name: "\U0001F1EB\U0001F1F7FR_475|8.6MB/s|A004-260618 01"
       obfs: ""
       obfs-password: ""
       password: Krab9Hyst2_Rk7pQ2xL
@@ -200,7 +200,7 @@ proxies:
       up: ""
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_3|3.5MB/s|62%|TK-US|YT-US|NF-US|GPT⁺-US|CL-US|SP-US"
+      name: "\U0001F1FA\U0001F1F8US_275|825KB/s|A004-260618 01"
       network: raw
       port: "443"
       reality-opts:
@@ -214,14 +214,14 @@ proxies:
       uuid: cb2dbb6a-a1ea-4023-9ace-6466cee57241
       xudp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_8|322KB/s|54%|TK-USEASTRED|NF-DE|GPT-NL|CL-NL"
+      name: "\U0001F1F3\U0001F1F1NL-193.29.139.168-0198"
       password: QCXDxuDlTTMD7jtgHUjIoj
       port: 8080
       server: 193.29.139.168
       type: ss
     - client-fingerprint: ios
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_4|31KB/s|100%|TK-US|YT-US|NF-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      name: "\U0001F1FA\U0001F1F8US_551|1.4MB/s|A004-260618 01"
       network: raw
       port: "443"
       reality-opts:
@@ -237,7 +237,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_3|3.6MB/s|33%|TK-DE|YT-DE|NF-DE|GPT⁺-DE|GM-DE|CL-DE|SP-DE"
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-5212"
       network: tcp
       port: "443"
       reality-opts:
@@ -250,20 +250,20 @@ proxies:
       udp: true
       uuid: 84ed0e09-6803-4ef9-a977-74b657d971e5
       xudp: true
-    - name: "\U0001F1E8\U0001F1FFCZ_1|2.7MB/s|25%|TK-CZ|YT-RU|NF-AT|D+-CZ|GPT⁺-CZ|CL-CZ|SP-CZ"
+    - name: "D\U0001F534\U0001F1E8\U0001F1FFhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_a231ec83"
       port: 8443
       server: 5.35.100.14
       skip-cert-verify: true
       tls: true
       type: http
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EA\U0001F1F8ES_1|2.6MB/s|65%|TK-ES|YT-US|NF-US|GPT⁺-ES|GM-US|CL-ES|SP-ES"
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-7929"
       password: WSyL4XTwNsdv
       port: "8388"
       server: 108.181.121.226
       type: ss
       udp: true
-    - name: "\U0001F1FA\U0001F1F8US_5|55KB/s|9%|TK-US|YT-US|NF-US|GPT⁺-US|GM-US|CL-US|SP-US"
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F4E6]_dokng.com_3a4fb783"
       port: 7615
       server: 47.90.206.169
       skip-cert-verify: true
@@ -278,7 +278,7 @@ proxies:
         method: GET
         path:
             - /x
-      name: "\U0001F1ED\U0001F1F0HK_2|19KB/s|0%|TK-ALISG|NF-HK"
+      name: "\U0001F1ED\U0001F1F0HK-47.86.167.194-0851"
       network: http
       port: 800
       server: 47.86.167.194
@@ -289,7 +289,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1EEFI_1|468KB/s|0%|TK-USEASTRED|YT-US|NF-LV|GPT⁺-FI|CL-FI|SP-UK"
+      name: "\U0001F1EB\U0001F1EEFI_2|392KB/s|M002-260618 01"
       network: tcp
       port: "443"
       reality-opts:
@@ -304,7 +304,7 @@ proxies:
       xudp: true
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_9|5.6MB/s|0%|TK-USEASTRED|YT-NL|NF-NL|GPT⁺-NL|GM-NL|CL-NL|SP-NL"
+      name: "\U0001F1F3\U0001F1F1NL_100|3.7MB/s|C002-260622 01"
       network: raw
       port: "23576"
       reality-opts:
@@ -319,7 +319,7 @@ proxies:
       xudp: true
     - down: ""
       fingerprint: ""
-      name: "\U0001F1F9\U0001F1FCTW_1|4.4MB/s|0%|TK-ALISG|YT-TW|NF-HK|D+-TW|GPT⁺-TW|GM-TW|CL-TW|SP-TW"
+      name: "\U0001F1F9\U0001F1FCTW_12|504KB/s|A004-260618 01"
       obfs: ""
       obfs-password: ""
       password: H7mP2xY9kJ4nQ8wR5tF6vB3z
@@ -332,7 +332,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1EEFI_2|486KB/s|0%|TK-USEASTRED|YT-US|NF-LV|GPT⁺-FI|CL-FI|SP-UK"
+      name: "\U0001F1EB\U0001F1EEFI_46|381KB/s|M002-260618 01"
       network: tcp
       port: "443"
       reality-opts:
@@ -345,7 +345,7 @@ proxies:
       udp: true
       uuid: 4d017db2-7655-4276-9557-e2ec25b04ee7
       xudp: true
-    - name: "\U0001F1EF\U0001F1F5JP_3|490KB/s|0%|TK-ALISG|YT-CN|NF-JP|GPT⁺-JP|CL-JP|SP-JP"
+    - name: "\U0001F1EF\U0001F1F5JP-54.238.153.132-0242"
       password: UX82473651
       port: 443
       server: obliging-louse.rooster465.autos
@@ -353,7 +353,7 @@ proxies:
       sni: obliging-louse.rooster465.autos
       type: trojan
     - cipher: 2022-blake3-aes-256-gcm
-      name: ❓Other_1|1.2MB/s|GPT-CA|CL-CA|SP-CA
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-83"
       password: cOiC+3JhAXMwdGV5exnrMSorJU0Rl5qlLCbCAuDlWY4=:HWFFJN19JkvbTKo/79AfnbRBK9uHUUaFNZJyLjEoJGs=
       port: "2083"
       server: 51.222.107.43
@@ -362,7 +362,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1EEFI_3|481KB/s|0%|TK-USEASTRED|YT-US|NF-LV|GPT⁺-FI|CL-FI|SP-UK"
+      name: "\U0001F1EB\U0001F1EEFI_6|382KB/s|M002-260618 01"
       network: raw
       port: "443"
       reality-opts:
@@ -375,14 +375,14 @@ proxies:
       udp: true
       uuid: aded66f1-de12-4c3c-af9e-a21d6e7d9c96
       xudp: true
-    - name: "\U0001F1F0\U0001F1F7KR_1|1.0MB/s|3%|TK-ALISG|YT-CN|NF-JP|D+-KR|GPT⁺-KR|CL-KR|SP-KR"
+    - name: "\U0001F1F0\U0001F1F7KR-52.78.203.191-0256"
       password: UX82473651
       port: 443
       server: delicate-buck.rooster465.autos
       skip-cert-verify: false
       sni: delicate-buck.rooster465.autos
       type: trojan
-    - name: "\U0001F1FA\U0001F1F8US_6|2.0MB/s|86%|TK-US|YT-US|NF-US|GPT⁺-US|GM-US|CL-US|SP-US"
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_a04e8fa8"
       port: 443
       server: carolinafreigh.fun
       sni: carolinafreigh.fun
@@ -391,7 +391,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1EEFI_4|480KB/s|0%|TK-USEASTRED|YT-US|NF-LV|GPT⁺-FI|CL-FI|SP-UK"
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-7959"
       network: tcp
       port: "443"
       reality-opts:
@@ -405,18 +405,18 @@ proxies:
       uuid: 317bc783-340f-453c-afb5-b6bf637c0b23
       xudp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_10|3.3MB/s|54%|TK-USEASTRED|YT-US|NF-DE|GPT⁺-NL|CL-NL|SP-NL"
+      name: "\U0001F1EC\U0001F1E7GB-82.38.31.202-0162"
       password: k1dBOmOB4oqi7Ump37a1bQ
       port: 8080
       server: 82.38.31.202
       type: ss
-    - name: "\U0001F1E8\U0001F1FECY_1|1.1MB/s|0%|TK-CY|YT-US|NF-CY|GPT⁺-CY|CL-CY|SP-GR"
+    - name: "A\U0001F7E2\U0001F1E8\U0001F1FEres[\U0001F916\U0001F4FA\U0001F3AA\U0001F4E6]_dokng.com_c4751386"
       port: 443
       server: 213.207.130.34
       skip-cert-verify: true
       tls: true
       type: http
-    - name: "\U0001F1F0\U0001F1F7KR_2|586KB/s|3%|TK-ALISG|YT-CN|NF-JP|D+-KR|GPT⁺-KR|CL-KR|SP-KR"
+    - name: "\U0001F1F0\U0001F1F7KR-43.201.100.203-0259"
       password: UX82473651
       port: 443
       server: optimum-snapper.rooster465.autos
@@ -427,7 +427,7 @@ proxies:
         - ""
       alterId: "0"
       cipher: auto
-      name: "\U0001F1EB\U0001F1F7FR_4|1.1MB/s|50%|TK-FR|YT-US|NF-BE|GPT⁺-FR|CL-FR|SP-FR"
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-1336"
       network: ws
       port: "80"
       server: 145.239.55.210
@@ -443,7 +443,7 @@ proxies:
       xudp: true
     - down: ""
       fingerprint: ""
-      name: "\U0001F1ED\U0001F1F0HK_3|3.0MB/s|0%|TK-ALISG|YT-US|NF-HK|D+-HK|GM-US|SP-HK"
+      name: 香港 18
       obfs: ""
       obfs-password: ""
       password: H7mP2xY9kJ4nQ8wR5tF6vB3z
@@ -456,7 +456,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_7|260KB/s|67%|TK-US|YT-US|NF-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-1607"
       network: tcp
       port: "443"
       reality-opts:
@@ -472,7 +472,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_11|588KB/s|0%|TK-USEASTRED|YT-RU|NF-NL|GPT⁺-NL|CL-NL|SP-NL"
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-4858"
       network: tcp
       port: "443"
       reality-opts:
@@ -485,7 +485,7 @@ proxies:
       udp: true
       uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
       xudp: true
-    - name: "\U0001F1FA\U0001F1F8US_8|2.9MB/s|57%|TK-US|YT-US|NF-US|GPT⁺-US|GM-US|CL-US|SP-US"
+    - name: "\U0001F1FA\U0001F1F8US_22|4.4MB/s"
       password: ""
       port: "9002"
       server: 138.199.35.209
@@ -497,7 +497,7 @@ proxies:
         - ""
       alterId: "0"
       cipher: auto
-      name: "\U0001F1F0\U0001F1FFKZ_1|1.2MB/s|0%|NF-NL|GPT|SP-KZ"
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-213"
       network: ws
       port: "80"
       server: 3h-kazakhstan1.09vpn.com
@@ -514,7 +514,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_9|5.3MB/s|11%|TK-US|YT-US|NF-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      name: "\U0001F1FA\U0001F1F8US_728|103KB/s|T001-260618 01"
       network: tcp
       port: "443"
       reality-opts:
@@ -529,7 +529,7 @@ proxies:
       xudp: true
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1F1\U0001F1FBLV_1|5.1MB/s|3%|TK-US|YT-RU|NF-LV|GPT⁺-LV|CL-LV|SP-LV"
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-2118"
       network: tcp
       port: "443"
       reality-opts:
@@ -543,7 +543,7 @@ proxies:
       uuid: 5234b2b7-5e07-422c-8159-d62a676c00c6
       xudp: true
     - client-fingerprint: chrome
-      name: "\U0001F1F0\U0001F1F7KR_3|619KB/s|3%|TK-ALISG|YT-CN|NF-JP|D+-KR|GPT⁺-KR|CL-KR|SP-KR"
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-8764"
       network: tcp
       password: UX82473651
       port: "443"
@@ -552,7 +552,7 @@ proxies:
       sni: engaging-toucan.rooster465.autos
       type: trojan
       udp: true
-    - name: "\U0001F1EA\U0001F1EAEE_1|618KB/s|0%|YT-GB|NF-LV|GPT⁺-EE|CL-EE|SP-EE"
+    - name: "\U0001F1EA\U0001F1EAEE_9|848KB/s|A004-260618 01"
       network: ws
       port: "443"
       server: 94.183.170.135
@@ -565,27 +565,27 @@ proxies:
             User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
         path: /
       xudp: true
-    - name: "\U0001F1FA\U0001F1F8US_10|3.4MB/s|2%|TK-US|YT-US|NF-US|GPT⁺-US|GM-US|CL-US|SP-US"
+    - name: "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_e34802bf"
       port: 443
       server: 34.216.155.5
       skip-cert-verify: true
       tls: true
       type: http
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_12|316KB/s|91%|TK-USEASTRED|YT-NL|NF-DE|GPT-NL|GM-NL|CL-NL"
+      name: "\U0001F1EC\U0001F1E7GB-82.38.31.186-0128"
       password: k1dBOmOB4oqi7Ump37a1bQ
       port: 8080
       server: 82.38.31.186
       type: ss
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_13|3.3MB/s|54%|TK-USEASTRED|YT-US|NF-DE|GPT⁺-NL|CL-NL|SP-NL"
+      name: "\U0001F1EC\U0001F1E7GB-82.38.31.10-0156"
       password: oZIoA69Q8yhcQV8ka3Pa3A
       port: 8080
       server: 82.38.31.10
       type: ss
     - down: ""
       fingerprint: ""
-      name: "\U0001F1EB\U0001F1F7FR_5|4.3MB/s|26%|TK-FR|YT-US|NF-FR|GPT⁺-FR|CL-FR|SP-FR"
+      name: "\U0001F1EB\U0001F1F7FR_575|8.6MB/s|A004-260618 01"
       obfs: ""
       obfs-password: ""
       password: dongtaiwang.com
@@ -596,19 +596,19 @@ proxies:
       type: hysteria2
       up: ""
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_14|785KB/s|67%|TK-USEASTRED|YT-NL|NF-DE|GPT⁺-NL|CL-NL|SP-NL"
+      name: "\U0001F1EC\U0001F1E7GB-82.38.31.217-0136"
       password: k1dBOmOB4oqi7Ump37a1bQ
       port: 8080
       server: 82.38.31.217
       type: ss
-    - name: "\U0001F1F0\U0001F1F7KR_4|878KB/s|3%|TK-ALISG|YT-CN|NF-JP|D+-KR|GPT⁺-KR|CL-KR|SP-KR"
+    - name: "\U0001F1F0\U0001F1F7KR-3.36.52.203-0158"
       password: UX82473651
       port: 443
       server: inviting-rabbit.rooster465.autos
       skip-cert-verify: false
       sni: inviting-rabbit.rooster465.autos
       type: trojan
-    - name: "\U0001F1F8\U0001F1ECSG_1|940KB/s|3%|TK-ALISG|YT-SG|NF-JP|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
+    - name: "\U0001F1F8\U0001F1ECSG-52.221.219.241-0178"
       password: UX82473651
       port: 443
       server: fond-mammoth.rooster465.autos
@@ -616,12 +616,12 @@ proxies:
       sni: fond-mammoth.rooster465.autos
       type: trojan
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_15|2.0MB/s|0%|TK-USEASTRED|YT-NL|NF-DE|GPT⁺-NL|CL-NL|SP-NL"
+      name: "\U0001F1EC\U0001F1E7GB-82.38.31.42-0191"
       password: oZIoA69Q8yhcQV8ka3Pa3A
       port: 8080
       server: 82.38.31.42
       type: ss
-    - name: "\U0001F1EE\U0001F1EAIE_1|724KB/s|3%|TK-IE|YT-IE|NF-GB|GPT⁺-IE|GM-IE|CL-IE|SP-IE"
+    - name: "\U0001F1EE\U0001F1EAIE-3.253.106.233-0204"
       password: UX82473651
       port: 443
       server: loved-shark.rooster465.autos
@@ -629,7 +629,7 @@ proxies:
       sni: loved-shark.rooster465.autos
       type: trojan
     - client-fingerprint: chrome
-      name: "\U0001F1EE\U0001F1F1IL_1|358KB/s|25%|TK-ALISG|YT-IL|NF-RO|D+-IL|GM-IL|SP-IL"
+      name: "\U0001F1EE\U0001F1F1[www.v2nodes.com] vless-IL-1... #2"
       network: ws
       port: 443
       server: 185.253.75.119
@@ -642,7 +642,7 @@ proxies:
             Host: ccc.010304.xyz
         path: /
     - encryption: none
-      name: "\U0001F1F5\U0001F1F1PL_1|38KB/s|0%|NF-PL|GPT⁺-PL|CL-PL"
+      name: "\U0001F3F3[www.v2nodes.com] vless- #18"
       network: tcp
       port: 8443
       server: pl.flen-vpn.xyz
@@ -650,7 +650,7 @@ proxies:
       tls: true
       type: vless
       uuid: 51a1fd52-fd88-4905-a976-35e44be28e4b
-    - name: "\U0001F1EF\U0001F1F5JP_4|361KB/s|0%|TK-ALISG|YT-CN|NF-JP|D+-JP|GPT⁺-JP|CL-JP|SP-US"
+    - name: "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_043d44ac"
       password: ""
       port: 443
       server: fan.571589.xyz
@@ -660,13 +660,13 @@ proxies:
       type: http
       udp: true
       username: ""
-    - name: "\U0001F1E9\U0001F1EADE_4|1.7MB/s|21%|TK-DE|YT-DE|NF-HU|D+-DE|GPT⁺-DE|GM-DE|CL-DE|SP-DE"
+    - name: "C\U0001F7E0\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_99a40403"
       port: 443
       server: 213.109.163.119
       skip-cert-verify: true
       tls: true
       type: http
-    - name: "\U0001F1F3\U0001F1F1NL_16|3.7MB/s|63%|TK-USEASTRED|YT-NL|NF-NL|GPT⁺-NL|GM-NL|CL-NL|SP-NL"
+    - name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_f9c49b8d"
       password: ""
       port: 9002
       server: 84.17.47.147
@@ -674,13 +674,13 @@ proxies:
       tls: true
       type: http
       username: ""
-    - name: "\U0001F1FA\U0001F1F8US_11|237KB/s|0%|TK-US|YT-CN|NF-US|GPT⁺-US|CL-US|SP-US"
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_2320978c"
       port: 443
       server: 137.175.22.84
       skip-cert-verify: true
       tls: true
       type: http
-    - name: "\U0001F1FA\U0001F1F8US_12|1.7MB/s|95%|TK-US|YT-US|NF-US|GPT⁺-US|GM-US|CL-US|SP-US"
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_578adde4"
       password: null
       port: 443
       server: zebpay.site
@@ -688,19 +688,19 @@ proxies:
       tls: true
       type: http
       username: null
-    - name: "\U0001F1EE\U0001F1EAIE_2|2.0MB/s|46%|TK-IE|YT-IE|NF-GB|GPT⁺-IE|GM-IE|CL-IE|SP-IE"
+    - name: "D\U0001F534\U0001F1EE\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_f2b76d2c"
       port: 443
       server: 149.88.96.12
       skip-cert-verify: true
       tls: true
       type: http
-    - name: "\U0001F1FA\U0001F1F8US_13|1.6MB/s|5%|TK-US|YT-US|NF-US|GPT⁺-US|GM-US|CL-US|SP-US"
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_415e35b6"
       port: 8443
       server: 54.190.176.228
       skip-cert-verify: true
       tls: true
       type: http
-    - name: "\U0001F1FA\U0001F1F8US_14|2.7MB/s|69%|TK-US|YT-US|NF-US|GPT⁺-US|GM-US|CL-US|SP-US"
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_568e6b70"
       password: None
       port: 443
       server: efr-marktplatz.club
@@ -708,13 +708,13 @@ proxies:
       tls: true
       type: http
       username: null
-    - name: ❓Other_2|33KB/s
+    - name: "D\U0001F534\U0001F1EB\U0001F1F7hos_dokng.com_7d655aac"
       port: 8090
       server: 80.15.99.54
       skip-cert-verify: true
       tls: true
       type: http
-    - name: "\U0001F1E6\U0001F1F9AT_1|722KB/s|42%|TK-AT|YT-AT|NF-AT|GPT⁺-AT|GM-AT|CL-AT|SP-AT"
+    - name: "D\U0001F534\U0001F1E6\U0001F1F9hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_bd68bfa4"
       password: null
       port: 443
       server: 146.70.244.2
@@ -722,7 +722,7 @@ proxies:
       tls: true
       type: http
       username: null
-    - name: "\U0001F1F7\U0001F1F4RO_1|2.4MB/s|50%|TK-RO|YT-RO|NF-RO|GPT⁺-RO|GM-RO|CL-RO|SP-RO"
+    - name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b8d00522"
       password: None
       port: 9002
       server: 193.176.84.30
@@ -730,38 +730,38 @@ proxies:
       tls: true
       type: http
       username: null
-    - name: "\U0001F1FA\U0001F1F8US_15|1.1MB/s|70%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_cfdbfd42"
       port: 443
       server: 193.239.236.134
       skip-cert-verify: true
       tls: true
       type: http
-    - name: "\U0001F1F3\U0001F1F1NL_17|1.3MB/s|70%|TK-USEASTRED|YT-GB|NF-NL|D+-GB|GPT⁺-NL|GM-GB|CL-NL|SP-NL"
+    - name: "A\U0001F7E2\U0001F1F3\U0001F1F1res[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_7965ac3d"
       port: 9443
       server: 149.36.51.157
       skip-cert-verify: true
       tls: true
       type: http
-    - name: "\U0001F1F3\U0001F1F1NL_18|3.0MB/s|0%|TK-USEASTRED|YT-NL|NF-NL|GPT⁺-NL|GM-NL|CL-NL|SP-NL"
+    - name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F50D]_dokng.com_ca5ed24f"
       port: 9090
       server: 185.53.129.141
       skip-cert-verify: true
       tls: true
       type: http
-    - name: "\U0001F1EB\U0001F1F7FR_6|1.9MB/s|34%|TK-FR|YT-US|NF-FR|D+-FR|GPT⁺-FR|CL-FR|SP-FR"
+    - name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_bafa4f5a"
       password: github.com/Alvin9999-newpac/fanqiang
       port: 30099
       server: ip5.934618.xyz
       sni: ip5.934618.xyz
       type: anytls
       udp: true
-    - name: "\U0001F1EE\U0001F1E9ID_1|2.0MB/s|0%|TK-ALISG|YT-ID|NF-ID|D+-ID|GPT⁺-ID|GM-ID|CL-ID|SP-ID"
+    - name: "D\U0001F534\U0001F1EE\U0001F1E9hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_772cd92f"
       port: 443
       server: 103.86.117.202
       skip-cert-verify: true
       tls: true
       type: http
-    - name: "\U0001F1EA\U0001F1EAEE_2|325KB/s|0%|TK-RU|GPT-EE|GM-EE|CL-EE"
+    - name: "D\U0001F534\U0001F1F7\U0001F1FAhos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_a590864e"
       password: 9jkvAVV-9ufV6IGd
       port: 27402
       server: chalo-ru.nexorcdn.com
@@ -770,33 +770,33 @@ proxies:
       tls: true
       type: http
       username: ef37886e2aacd6fa622e3de3810299c2
-    - name: "\U0001F1E9\U0001F1EADE_5|2.6MB/s|53%|TK-DE|YT-CN|NF-DE|GPT⁺-DE|CL-DE|SP-DE"
+    - name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_9085ec51"
       port: 9002
       server: 158.173.154.1
       skip-cert-verify: true
       tls: true
       type: http
-    - name: "\U0001F1F3\U0001F1F1NL_19|2.5MB/s|TK-NL|NF-NL|GPT|CL-NL"
+    - name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_b3e00b67"
       password: null
       port: 1080
       server: 5.255.117.250
       type: socks5
       udp: true
       username: null
-    - name: "\U0001F1ED\U0001F1F0HK_4|4KB/s|NF-HK"
+    - name: "C\U0001F7E0\U0001F1ED\U0001F1F0hos[\U0001F4FA]_dokng.com_db363b3a"
       password: admin
       port: 8899
       server: 47.242.19.215
       skip-cert-verify: true
       type: socks5
       username: admin
-    - name: "\U0001F1F2\U0001F1FDMX_1|2.0MB/s|0%|TK-ALISG|YT-MX|NF-US|GPT⁺-MX|GM-MX|CL-MX|SP-MX"
+    - name: "D\U0001F534\U0001F1F2\U0001F1FDhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_7ca00dcc"
       port: 999
       server: 189.51.168.165
       type: http
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1EA\U0001F1F8ES_2|745KB/s|27%|TK-ES|YT-ES|NF-ES|GPT⁺-NL|CL-NL|SP-ES"
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-512"
       network: xhttp
       port: "443"
       reality-opts:
@@ -817,7 +817,7 @@ proxies:
       xudp: true
     - client-fingerprint: firefox
       encryption: none
-      name: "\U0001F1E9\U0001F1EADE_6|5.5MB/s|6%|TK-DE|YT-DE|NF-DE|GPT⁺-DE|GM-DE|CL-DE|SP-DE"
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-839"
       network: xhttp
       port: "2096"
       reality-opts:
@@ -837,7 +837,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1EC\U0001F1E7GB_1|4.6MB/s|48%|TK-GB|YT-RU|NF-HU|D+-GB|GPT⁺-GB|CL-GB|SP-UK"
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-2624"
       network: tcp
       port: "443"
       reality-opts:
@@ -854,7 +854,7 @@ proxies:
         - http/1.1
       client-fingerprint: unsafe
       encryption: none
-      name: "\U0001F1F3\U0001F1F1NL_20|1.6MB/s|25%|TK-USEASTRED|YT-EG|NF-NL|D+-NL|GM-EG|SP-NL"
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-3010"
       network: ws
       port: "8443"
       server: 103.90.75.41
@@ -870,7 +870,7 @@ proxies:
         path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560
       xudp: true
     - encryption: none
-      name: "\U0001F1F3\U0001F1F1NL_21|1.1MB/s|24%|TK-USEASTRED|NF-NL|GPT|SP-NL"
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-3154"
       network: ws
       port: "80"
       server: 163.172.213.174
@@ -883,7 +883,7 @@ proxies:
             User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
         path: /vless/
       xudp: true
-    - name: "\U0001F1E9\U0001F1EADE_7|144KB/s|0%|TK-DE|YT-US|NF-DE|GPT⁺-DE|CL-DE|SP-DE"
+    - name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-3238"
       network: tcp
       port: "22849"
       server: 31.76.11.83
@@ -894,7 +894,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5JP_5|28KB/s|0%|TK-ALISG|YT-CN|NF-JP|GPT⁺-JP|CL-JP|SP-JP"
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-3465"
       network: tcp
       port: "443"
       reality-opts:
@@ -909,7 +909,7 @@ proxies:
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1E8\U0001F1F1CL_1|379KB/s|25%|TK-ALISG|YT-CL|NF-BR|D+-CL|GM-CL|SP-CL"
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-3667"
       network: ws
       port: "443"
       server: 43.174.193.1
@@ -925,7 +925,7 @@ proxies:
         path: /
       xudp: true
     - client-fingerprint: chrome
-      name: "\U0001F1F0\U0001F1F7KR_5|1014KB/s|3%|TK-ALISG|YT-CN|NF-JP|D+-KR|GPT⁺-KR|CL-KR|SP-KR"
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-4204"
       network: tcp
       password: UX82473651
       port: "443"
@@ -937,7 +937,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_16|560KB/s|100%|TK-US|YT-US|NF-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-6035"
       network: tcp
       port: "36925"
       reality-opts:
@@ -953,7 +953,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_22|622KB/s|0%|TK-USEASTRED|YT-GB|NF-DE|GPT⁺-NL|GM-DE|CL-NL|SP-NL"
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-7482"
       network: tcp
       port: "443"
       reality-opts:
@@ -967,7 +967,7 @@ proxies:
       uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
       xudp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_23|1.9MB/s|54%|TK-USEASTRED|YT-US|NF-DE|GPT⁺-NL|CL-NL|SP-NL"
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-8738"
       password: oZIoA69Q8yhcQV8ka3Pa3A
       port: "8080"
       server: 82.38.31.7
@@ -976,7 +976,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_8|714KB/s|5%|TK-DE|YT-DE|NF-DE|GPT⁺-DE|CL-DE|SP-DE"
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-9213"
       network: tcp
       port: "443"
       reality-opts:
@@ -993,7 +993,7 @@ proxies:
         - ""
       alterId: "0"
       cipher: auto
-      name: "\U0001F1F9\U0001F1EDTH_1|954KB/s|0%|TK-ALISG|YT-TH|NF-TH|D+-TH|GPT⁺-TH|CL-TH|SP-TH"
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-9515"
       network: none
       port: "37515"
       server: 119.46.51.45
@@ -1005,7 +1005,7 @@ proxies:
       xudp: true
     - down: ""
       fingerprint: ""
-      name: "\U0001F1ED\U0001F1F0HK_5|2.8MB/s|0%|TK-ALISG|YT-CN|NF-HK|D+-HK|SP-HK"
+      name: 香港 22
       obfs: ""
       obfs-password: ""
       password: H7mP2xY9kJ4nQ8wR5tF6vB3z
@@ -1018,7 +1018,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_24|4.2MB/s|0%|TK-USEASTRED|YT-NL|NF-NL|GPT⁺-NL|GM-NL|CL-NL|SP-NL"
+      name: "\U0001F1F3\U0001F1F1NL_82|4.3MB/s|C002-260622 01"
       network: raw
       port: "23576"
       reality-opts:
@@ -1034,7 +1034,7 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1EEFI_5|449KB/s|0%|TK-USEASTRED|YT-US|NF-LV|GPT⁺-FI|CL-FI|SP-UK"
+      name: "\U0001F1EB\U0001F1EEFI_30|374KB/s|M002-260618 01"
       network: raw
       port: "443"
       reality-opts:
@@ -1048,14 +1048,14 @@ proxies:
       uuid: 594d466e-8ac3-4fda-b1d1-eeb817853518
       xudp: true
     - cipher: aes-256-gcm
-      name: "\U0001F1E9\U0001F1EADE_9|2.6MB/s|18%|TK-DE|YT-US|NF-DE|GPT⁺-DE|CL-DE|SP-DE"
+      name: "\U0001F1E9\U0001F1EADE_77|2.0MB/s|A004-260618 01"
       password: RexnBgU7EV5ADxG
       port: "7001"
       server: 213.202.208.199
       type: ss
       udp: true
     - client-fingerprint: firefox
-      name: "\U0001F1EF\U0001F1F5JP_6|1.4MB/s|37%|TK-ALISG|YT-SG|NF-JP|D+-GB|GPT⁺-JP|GM-SG|CL-JP|SP-UK"
+      name: "\U0001F1EF\U0001F1F5JP_30|561KB/s|A004-260618 01"
       network: tcp
       port: "2053"
       reality-opts:
@@ -1070,7 +1070,7 @@ proxies:
       xudp: true
     - client-fingerprint: ios
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_17|294KB/s|84%|TK-US|YT-US|NF-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      name: "\U0001F1FA\U0001F1F8US_555|1.4MB/s|A004-260618 01"
       network: raw
       port: "443"
       reality-opts:
@@ -1085,7 +1085,7 @@ proxies:
       xudp: true
     - down: ""
       fingerprint: ""
-      name: "\U0001F1F9\U0001F1FCTW_2|4.4MB/s|0%|TK-ALISG|YT-TW|NF-HK|D+-TW|GPT⁺-TW|GM-TW|CL-TW|SP-TW"
+      name: "\U0001F1F9\U0001F1FCTW_30|411KB/s 01"
       obfs: ""
       obfs-password: ""
       password: H7mP2xY9kJ4nQ8wR5tF6vB3z
@@ -1096,7 +1096,7 @@ proxies:
       type: hysteria2
       up: ""
     - client-fingerprint: chrome
-      name: "\U0001F1EB\U0001F1F7FR_7|1.2MB/s|33%|TK-FR|YT-US|NF-FR|D+-FR|GPT⁺-FR|CL-FR|SP-FR"
+      name: "\U0001F1EB\U0001F1F7FR_2190|1004KB/s|M003-260806 01"
       network: ws
       password: humanity
       port: "443"
