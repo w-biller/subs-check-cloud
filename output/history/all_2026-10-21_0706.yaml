@@ -1,0 +1,1193 @@
+proxies:
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1F3\U0001F1F1NL_105|137KB/s|C002-260622 01"
+      network: raw
+      port: "443"
+      reality-opts:
+        public-key: Hg_ivwbClYmR-SEHdoGgq4yEk6ltbjS5c4yiQRa4_28
+        short-id: 52c723e0fad49689
+      server: 152.70.58.201
+      servername: www.nvidia.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 8892e34a-339b-4526-b88d-cf68c516231c
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-189"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: 7LSzvilTVKGMtBDuKGeMrLtlhY7tQf5YcG566dEgO0I
+        short-id: b390e0a721d242b0
+      server: 137.74.16.237
+      servername: www.icloud.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: aaec4e42-a095-44b6-a239-f16d234a0798
+      xudp: true
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-4678"
+      network: ws
+      password: humanity
+      port: "443"
+      server: 188.114.97.6
+      skip-cert-verify: false
+      sni: www.volumeroot.com
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+        path: /assignment
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_c09c3f93"
+      password: e4b72b531a2d10900519
+      port: 443
+      server: 162.243.146.243
+      sni: a2f392f3.acsnet.co
+      tls: true
+      type: http
+      username: testuser1
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1EF\U0001F1F5JP_19|561KB/s|A004-260618 01"
+      network: raw
+      port: "50159"
+      reality-opts:
+        public-key: j4QXngGuJkUGwRj4XIrfHRohYYuEfnJlX4cvCE-WklA
+        short-id: 091e1c5db8451757
+      server: 154.31.114.248
+      servername: www.cloudflare.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: d56624b2-35bb-468c-9b2a-e0b0df7230c1
+      xudp: true
+    - encryption: none
+      name: "\U0001F1EE\U0001F1F9IT_40|3.2MB/s|C002-260622 01"
+      network: tcp
+      port: "10086"
+      server: 204.216.216.23
+      servername: /
+      type: vless
+      udp: true
+      uuid: 9f0285ee-20ca-4953-bcdb-86a920652923
+      xudp: true
+    - name: "C\U0001F7E0\U0001F1F8\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_9ee75ab8"
+      password: null
+      port: 443
+      server: 149.50.216.65
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-6263"
+      password: oZIoA69Q8yhcQV8ka3Pa3A
+      port: "8080"
+      server: 82.38.31.28
+      type: ss
+      udp: true
+    - name: "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_bb67aa0d"
+      port: 9090
+      server: 152.42.170.187
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_3|1.0MB/s"
+      password: None
+      port: 9002
+      server: 193.176.84.36
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: "null"
+    - name: "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4FA\U0001F4E6]_dokng.com_9b8722f4"
+      port: 443
+      server: 109.116.41.154
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EC\U0001F1E7GB-82.38.31.186-0128"
+      password: k1dBOmOB4oqi7Ump37a1bQ
+      port: 8080
+      server: 82.38.31.186
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EC\U0001F1E7GB-82.38.31.170-0444"
+      password: oZIoA69Q8yhcQV8ka3Pa3A
+      port: 443
+      server: 82.38.31.170
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EC\U0001F1E7GB-82.38.31.3-0120"
+      password: oZIoA69Q8yhcQV8ka3Pa3A
+      port: 8080
+      server: 82.38.31.3
+      type: ss
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-3225"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+        short-id: c39cc7310a
+      server: 169.40.42.35
+      servername: yahoo.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+      xudp: true
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1E9\U0001F1EADE_64|329KB/s|K001-260618 01"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: uitO4Z8t9TplwwYaqwLqh5rfxDh_X8bOBiNuPbzvaEM
+        short-id: bbe46bd8f6b96839
+      server: prep.wwwinternetvideo.click
+      servername: yandex.ru
+      tls: true
+      type: vless
+      udp: true
+      uuid: 1c332eae-7e02-4acd-996d-4eb3e652401c
+      xudp: true
+    - name: "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_511d9f76"
+      port: 1088
+      server: 212.77.75.25
+      type: socks5
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-2292"
+      network: tcp
+      port: "2053"
+      reality-opts:
+        public-key: DfFU5OG93GxB1x25Dl2BTkxKsBTFF4Su4PXYPbYvmms
+        short-id: 3c4041d3
+      server: 47.80.19.173
+      servername: gateway.icloud.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 319d5ffb-57e8-4bbd-ac0c-5d55d0c253de
+      xudp: true
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F4E6]_dokng.com_3a4fb783"
+      port: 7615
+      server: 47.90.206.169
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-847"
+      network: ws
+      port: "8443"
+      server: 104.21.57.84
+      servername: v2ray1.dozapp.xyz
+      skip-cert-verify: false
+      tls: true
+      type: vmess
+      udp: true
+      uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+      ws-opts:
+        headers:
+            Host: v2ray1.dozapp.xyz
+        path: /lMnsZUN4/
+      xudp: true
+    - client-fingerprint: ios
+      flow: xtls-rprx-vision
+      name: ❓Other_17|363KB/s|A004-260618 01
+      network: raw
+      port: "443"
+      reality-opts:
+        public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+        short-id: c39cc7310a
+      server: 169.40.42.225
+      servername: yahoo.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-3246"
+      network: tcp
+      port: "23576"
+      reality-opts:
+        public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+        short-id: "01"
+      server: 51.158.206.93
+      servername: fuck.rkn
+      tls: true
+      type: vless
+      udp: true
+      uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+      xudp: true
+    - alpn:
+        - http/1.1
+      client-fingerprint: unsafe
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-1952"
+      network: ws
+      password: humanity
+      port: "443"
+      server: 188.114.97.3
+      skip-cert-verify: false
+      sni: wWw.Volumeroot.cOm.
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
+        path: /assignment
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1EB\U0001F1EEFI_14|389KB/s|M002-260618 01"
+      network: raw
+      port: "443"
+      reality-opts:
+        public-key: G7bpUPFSW28-oE6ff8qZac1_apU6PiJ-GHmi7tAPDSY
+        short-id: 91af08b1ce1f
+      server: lists.soloramtin.cyou
+      servername: www.foxsports.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 67eb6b17-7797-4ded-bf52-423c4c5f6cbd
+      xudp: true
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_274|1.1MB/s|A004-260618 01"
+      obfs: ""
+      obfs-password: ""
+      password: 099830134df5ac3a04a4b21d39b8c395
+      port: "50160"
+      server: 163.192.14.135
+      skip-cert-verify: true
+      sni: google.com
+      type: hysteria2
+      up: ""
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1F7FR_2313|5.4MB/s|A004-260618 01"
+      network: raw
+      port: "2053"
+      reality-opts:
+        public-key: g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w
+        short-id: bfe58beb41f1d09f
+      server: 51.77.217.70
+      servername: www.apple.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: bf16ee0c-8b3c-41e4-ab3a-8b48033c404e
+      xudp: true
+    - name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_9085ec51"
+      port: 9002
+      server: 158.173.154.1
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_187d4a86"
+      port: 443
+      server: 93.42.177.250
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F4FA\U0001F3AA]_dokng.com_8300cd41"
+      password: "null"
+      port: 9050
+      server: 45.61.129.165
+      type: socks5
+      username: "null"
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-2399"
+      network: tcp
+      port: "23576"
+      reality-opts:
+        public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+        short-id: "01"
+      server: 51.158.206.8
+      servername: fuck.rkn
+      tls: true
+      type: vless
+      udp: true
+      uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-2496"
+      network: ws
+      password: humanity
+      port: "443"
+      server: 104.16.72.41
+      skip-cert-verify: false
+      sni: www.calmlunch.com
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+        path: /assignment
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-2692"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: PryGoq51ilG0eLUPl9i0xCvmk1xpwkyFSr_tG4GNLlU
+        short-id: 1d86d17709852910
+      server: 86.54.28.75
+      servername: www.apple.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 44ae52b9-76fc-444d-8e43-186b4384b80a
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-7556"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+        short-id: c39cc7310a
+      server: 169.40.42.74
+      servername: yahoo.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+      xudp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EC\U0001F1E7GB-82.38.31.192-0134"
+      password: k1dBOmOB4oqi7Ump37a1bQ
+      port: 8080
+      server: 82.38.31.192
+      type: ss
+    - client-fingerprint: unsafe
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-9366"
+      network: ws
+      password: humanity
+      port: "443"
+      server: 167.172.61.197
+      skip-cert-verify: false
+      sni: www.volumeroot.com
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.3 Safari/534.24
+        path: /assignment
+    - down: ""
+      fingerprint: ""
+      name: 香港 30
+      obfs: ""
+      obfs-password: ""
+      password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+      port: "443"
+      server: 202.146.222.29
+      skip-cert-verify: true
+      sni: t.me
+      type: hysteria2
+      up: ""
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1F3\U0001F1F1NL_49|5.2MB/s|C002-260622 01"
+      network: raw
+      port: "23576"
+      reality-opts:
+        public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+        short-id: "01"
+      server: 51.158.206.20
+      servername: fuck.rkn
+      tls: true
+      type: vless
+      udp: true
+      uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+      xudp: true
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_bad22d32"
+      port: 8443
+      server: 44.229.69.166
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1EE\U0001F1F3IN_9|261KB/s|A004-260618 01"
+      network: raw
+      port: "40443"
+      reality-opts:
+        public-key: g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw
+        short-id: 68a8
+      server: 5.253.42.164
+      servername: deepl.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: e99ba96d-dec8-42eb-be53-19e71eef7cab
+      xudp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EC\U0001F1E7GB-82.38.31.10-0156"
+      password: oZIoA69Q8yhcQV8ka3Pa3A
+      port: 8080
+      server: 82.38.31.10
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-3583"
+      password: oZIoA69Q8yhcQV8ka3Pa3A
+      port: "8080"
+      server: 82.38.31.17
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EC\U0001F1E7GB-82.38.31.176-0174"
+      password: k1dBOmOB4oqi7Ump37a1bQ
+      port: 8080
+      server: 82.38.31.176
+      type: ss
+    - client-fingerprint: chrome
+      name: "A\U0001F7E2\U0001F1F9\U0001F1FCres[\U0001F4FA\U0001F3AD\U0001F4E6\U0001F50D]_dokng.com_99719cf7"
+      port: 24215
+      reality-opts:
+        public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
+      server: hinet1.2yly.com
+      servername: addons.mozilla.org
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 19d5a678-8396-4e3b-93da-ece618d0e83a
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-1111"
+      network: ws
+      port: "8443"
+      server: 172.67.161.144
+      servername: v2ray1.dozapp.xyz
+      skip-cert-verify: false
+      tls: true
+      type: vmess
+      udp: true
+      uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+      ws-opts:
+        headers:
+            Host: v2ray1.dozapp.xyz
+        path: /lMnsZUN4/
+      xudp: true
+    - down: ""
+      fingerprint: ""
+      name: 香港 40
+      obfs: ""
+      obfs-password: ""
+      password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+      port: "443"
+      server: 202.146.222.29
+      skip-cert-verify: true
+      sni: https://t.me/wangcai2üá®üá≥
+      type: hysteria2
+      up: ""
+    - name: "D\U0001F534\U0001F1E6\U0001F1F9hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_bd68bfa4"
+      password: null
+      port: 443
+      server: 146.70.244.2
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_5b5b1d54"
+      password: None
+      port: 9002
+      server: 138.199.35.204
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1EB\U0001F1EEFI_18|291KB/s|M002-260618 01"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg
+        short-id: 5c8a8e6c615b
+      server: 107.181.151.241
+      servername: www.mozilla.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: 2f6e2b17-4d5e-4a12-8979-f53fdd347580
+    - encryption: none
+      name: "\U0001F1E6\U0001F1EA[www.v2nodes.com] vless-AE-1..."
+      network: ws
+      port: 14430
+      server: 95.174.68.188
+      servername: 95.174.68.188
+      tls: false
+      type: vless
+      uuid: 965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0
+      ws-opts:
+        headers:
+            Host: 95.174.68.188
+        path: /vless
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1EB\U0001F1EEFI_46|381KB/s|M002-260618 01"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
+        short-id: ee1716767f9b
+      server: server.slavkiti.monster
+      servername: www.tradingview.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 4d017db2-7655-4276-9557-e2ec25b04ee7
+      xudp: true
+    - encryption: none
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-6512"
+      network: tcp
+      port: "443"
+      server: 137.220.221.179
+      type: vless
+      udp: true
+      uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
+      xudp: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-3029"
+      network: tcp
+      port: "23576"
+      reality-opts:
+        public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+        short-id: "01"
+      server: 51.158.206.19
+      servername: fuck.rkn
+      tls: true
+      type: vless
+      udp: true
+      uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+      xudp: true
+    - name: "\U0001F1E6\U0001F1EAAE_1|610KB/s|C002-260622 01"
+      network: ws
+      port: "22573"
+      server: 84.235.244.108
+      type: vless
+      udp: true
+      uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+      ws-opts:
+        headers:
+            Host: uae.unixzone.us
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1EB\U0001F1EEFI_23|346KB/s|M002-260618 01"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
+        short-id: 1374bddeb25d
+      server: server.slavkiti.monster
+      servername: www.tradingview.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6dfc9149-1ff9-41c3-8563-0ef284381731
+      xudp: true
+    - name: "\U0001F1F8\U0001F1ECSG_4|1.3MB/s"
+      password: "1234"
+      port: 2080
+      server: 13.214.213.66
+      skip-cert-verify: true
+      type: http
+      username: "1234"
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-8315"
+      network: tcp
+      port: "8443"
+      reality-opts:
+        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+        short-id: 6ba85179e30d4fc2
+      server: 150.241.101.17
+      servername: yandex.net
+      tls: true
+      type: vless
+      udp: true
+      uuid: 47d9b534-8a0a-4bd2-90f1-1d6ade14427e
+      xudp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1F1\U0001F1FBLV_5|2.1MB/s|A004-260618 01"
+      password: mwgRg9hRq3b4Qnwb
+      port: "9068"
+      server: 185.135.86.175
+      type: ss
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8US_9|3.5MB/s"
+      port: 9002
+      server: 138.199.35.211
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1F1\U0001F1FBLV_9|2.1MB/s|A004-260618 01"
+      password: kSPmvwdFzGMMW5pY
+      port: "9007"
+      server: 185.135.86.175
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EC\U0001F1E7GB-82.38.31.205-0103"
+      password: k1dBOmOB4oqi7Ump37a1bQ
+      port: 8080
+      server: 82.38.31.205
+      type: ss
+    - name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_2b9c17b5"
+      password: "null"
+      port: 9002
+      server: 193.176.84.34
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: "null"
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-4620"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: 3jySGemfaqPZ2vM66Qtzo5SotO3eoRn1FeGaKp6KBQ4
+        short-id: 0da7e14db353e7d0
+      server: 84.32.109.20
+      servername: litv.nztvpn.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: ee18d188-14cc-417e-beb1-70e4add6d023
+      xudp: true
+    - encryption: none
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-2236"
+      network: ws
+      port: "30016"
+      server: uspanel.unixzone.us
+      type: vless
+      udp: true
+      uuid: 03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a
+      ws-opts:
+        headers:
+            Host: uspanel.unixzone.us
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+        path: /usserver
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-7142"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: WNifT0qNHWrUsvC6cuvej0rzZe6qPijopbmJyRADOF0
+        short-id: f713561d
+      server: 207.56.137.51
+      servername: www.cloudflare.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 01ada9fb-fa2f-45da-a0d0-bce80cdf433b
+      xudp: true
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_4628e154"
+      port: 443
+      server: efr-marktplatz.club
+      sni: efr-marktplatz.club
+      tls: true
+      type: http
+    - name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_34a41e08"
+      password: null
+      port: 9002
+      server: 193.176.84.38
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - down: ""
+      fingerprint: ""
+      name: 香港 11
+      obfs: ""
+      obfs-password: ""
+      password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+      port: "443"
+      server: 202.146.222.29
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      up: ""
+    - name: "C\U0001F7E0\U0001F1F8\U0001F1EChos_dokng.com_51a7e463"
+      password: "1234"
+      port: 2080
+      server: 13.250.6.249
+      skip-cert-verify: true
+      type: http
+      username: "1234"
+    - client-fingerprint: chrome
+      encryption: none
+      name: "D\U0001F534\U0001F1F7\U0001F1FAhos[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_942e76db"
+      network: ws
+      port: 8443
+      server: 139.100.226.187
+      servername: snip.edgeoneai.cc.cd
+      tls: true
+      type: vless
+      udp: true
+      uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+      ws-opts:
+        headers:
+            Host: snip.edgeoneai.cc.cd
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+        path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+      xudp: true
+    - name: "D\U0001F534\U0001F1F1\U0001F1FBhos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_26b0dc97"
+      password: None
+      port: 443
+      server: 109.248.147.66
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F3\U0001F1F1NL_86|2.6MB/s|A004-260618 01"
+      password: oZIoA69Q8yhcQV8ka3Pa3A
+      port: "443"
+      server: 82.38.31.149
+      type: ss
+      udp: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F8\U0001F1ECSG_100|809KB/s|A004-260618 01"
+      network: raw
+      port: "443"
+      reality-opts:
+        public-key: TqIFzUEEI1pIOR8BEpkNKEXcJ6cPfE5EzHb5joIivig
+        short-id: 9930177816ab09da
+      server: 206.206.76.75
+      servername: www.cloudflare.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 1e3d3634-36ac-43ac-a439-9665d885238f
+      xudp: true
+    - name: "\U0001F1EA\U0001F1EAEE_4|2.3MB/s"
+      password: 9jkvAVV-9ufV6IGd
+      port: 36774
+      server: chalo-ru.nexorcdn.com
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ef37886e2aacd6fa622e3de3810299c2
+    - name: "D\U0001F534\U0001F1F5\U0001F1F1hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_31efa2ea"
+      port: 443
+      server: 37.120.156.34
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-738"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: 33zaT3jHXjtynSQ0Ucw9bK92-XH2zolJmuIeZ1XyZB0
+        short-id: e6
+      server: 161.97.160.224
+      servername: passport.yandex.ru
+      tls: true
+      type: vless
+      udp: true
+      uuid: b81b4d1b-7f20-48f1-82dc-d24bef898cab
+      xudp: true
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-889"
+      network: tcp
+      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+      port: "443"
+      server: de6.dedushka.top
+      skip-cert-verify: false
+      sni: de6.dedushka.top
+      type: trojan
+      udp: true
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1EB\U0001F1F7FR_575|8.6MB/s|A004-260618 01"
+      obfs: ""
+      obfs-password: ""
+      password: dongtaiwang.com
+      port: "22000"
+      server: 62.210.124.146
+      skip-cert-verify: true
+      sni: www.microsoft.com
+      type: hysteria2
+      up: ""
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1E6\U0001F1FAAU_8|219KB/s|A004-260618 01"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: gCAazs5uxNuMZIxfDdw8wPE0nwKY4QfBfBkQveKAkEk
+        short-id: 0ad08b47f498efd2
+      server: 51.161.204.244
+      servername: www.cloudflare.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 36e89875-9c53-482b-bc41-d3890e9da176
+      xudp: true
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_b5553483"
+      port: 443
+      server: 38.247.141.135
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: NL_speednode_0017
+      port: 9002
+      server: 84.17.47.150
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      name: "A\U0001F7E2\U0001F1F9\U0001F1FCres[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_e59ee48e"
+      password: 0324fbc29561
+      port: 443
+      server: 684616s4.df6h451rh.xin
+      skip-cert-verify: true
+      sni: px.ads.linkedin.com
+      type: anytls
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EC\U0001F1E7GB-82.38.31.219-0083"
+      password: k1dBOmOB4oqi7Ump37a1bQ
+      port: 8080
+      server: 82.38.31.219
+      type: ss
+    - name: "\U0001F1FA\U0001F1F8US-216.106.186.32-0088"
+      password: dba20dcb635e430fa4d3bfc303a149d2
+      port: 443
+      server: blog.findlocaljobnetworkandbuildcommunityconnections.com
+      skip-cert-verify: false
+      sni: blog.findlocaljobnetworkandbuildcommunityconnections.com
+      type: trojan
+    - cipher: aes-256-gcm
+      name: "\U0001F1E8\U0001F1E6CA-51.79.64.198-0170"
+      password: cdBIDV42DCwnfIN
+      port: 8119
+      server: 51.79.64.198
+      type: ss
+    - name: "\U0001F1E9\U0001F1EADE-188.241.241.236-0427"
+      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+      port: 443
+      server: 188.241.241.236
+      skip-cert-verify: false
+      sni: de10.dedushka.top
+      type: trojan
+    - name: "\U0001F1E9\U0001F1EADE-92.42.99.143-0456"
+      network: ws
+      password: humanity
+      port: 443
+      server: 92.42.99.143
+      skip-cert-verify: false
+      sni: www.volumeroot.com
+      type: trojan
+      ws-opts:
+        headers:
+            Host: www.volumeroot.com
+        path: '%2Fassignment'
+    - name: "\U0001F1E6\U0001F1EAAE-31.57.190.34-0460"
+      network: ws
+      password: humanity
+      port: 443
+      server: 31.57.190.34
+      skip-cert-verify: false
+      sni: www.volumeroot.com
+      type: trojan
+      ws-opts:
+        headers:
+            Host: www.volumeroot.com
+        path: '%2Fassignment'
+    - name: "\U0001F1F5\U0001F1ED[www.v2nodes.com] vless-PH-1... #1"
+      network: ws
+      port: 80
+      server: platform107.golnamakcert.top
+      tls: false
+      type: vless
+      uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+      ws-opts:
+        path: /platform107
+    - name: "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_65754f01"
+      password: "1234"
+      port: 2080
+      server: 13.212.90.38
+      skip-cert-verify: true
+      type: http
+      username: "1234"
+    - name: "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F50D]_dokng.com_c607ceae"
+      password: "1234"
+      port: 2080
+      server: 13.212.87.168
+      skip-cert-verify: true
+      type: http
+      username: "1234"
+    - name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_11ff4f56"
+      password: null
+      port: 9002
+      server: 138.199.35.198
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - client-fingerprint: chrome
+      encryption: none
+      name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_cd4d0a45"
+      network: ws
+      port: 443
+      server: 87.120.126.131
+      servername: snip.edgeoneai.cc.cd
+      tls: true
+      type: vless
+      udp: true
+      uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+      ws-opts:
+        headers:
+            Host: snip.edgeoneai.cc.cd
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F916\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_d037a646"
+      network: ws
+      port: 8443
+      server: 62.133.60.134
+      servername: snip.edgeoneai.cc.cd
+      tls: true
+      type: vless
+      udp: true
+      uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+      ws-opts:
+        headers:
+            Host: snip.edgeoneai.cc.cd
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36
+        path: /
+      xudp: true
+    - name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_dokng.com_decfe8e7"
+      password: None
+      port: 9002
+      server: 193.176.84.21
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - alpn:
+        - http/1.1
+      client-fingerprint: unsafe
+      encryption: none
+      name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_366aff35"
+      network: ws
+      port: 443
+      server: 31.77.126.2
+      servername: snip.edgeoneai.cc.cd
+      tls: true
+      type: vless
+      udp: true
+      uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+      ws-opts:
+        headers:
+            Host: snip.edgeoneai.cc.cd
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+        path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "D\U0001F534\U0001F1EE\U0001F1F1hos[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_dokng.com_f18b6a5a"
+      network: ws
+      port: 8443
+      server: 185.239.48.154
+      servername: snip.edgeoneai.cc.cd
+      tls: true
+      type: vless
+      udp: true
+      uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+      ws-opts:
+        headers:
+            Host: snip.edgeoneai.cc.cd
+            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-1502"
+      network: ws
+      port: "443"
+      server: 45.8.173.99
+      servername: snip.edgeoneai.cc.cd
+      tls: true
+      type: vless
+      udp: true
+      uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+      ws-opts:
+        headers:
+            Host: snip.edgeoneai.cc.cd
+            User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+        path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+      xudp: true
+    - alpn:
+        - ""
+      alterId: "0"
+      cipher: auto
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-2253"
+      network: ws
+      port: "80"
+      server: 38.107.234.57
+      servername: google.com
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
+      ws-opts:
+        headers: {}
+        path: /vmess/
+      xudp: true
+    - encryption: none
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-2708"
+      network: ws
+      port: "80"
+      server: platform108.golnamakcert.top
+      type: vless
+      udp: true
+      uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+      ws-opts:
+        headers:
+            Host: platform108.halalkhor.info
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36
+        path: /platform108
+      xudp: true
+    - encryption: none
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-3692"
+      network: tcp
+      port: "22223"
+      server: 18.134.224.162
+      type: vless
+      udp: true
+      uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+      xudp: true
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-3725"
+      network: raw
+      port: "18000"
+      server: ww11.levikogjgfdd.ir
+      servername: ww11.levikogjgfdd.ir
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+      xudp: true
+    - alpn:
+        - h2
+      client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-4078"
+      network: xhttp
+      port: "443"
+      server: remotok.softupdatecenter.com
+      servername: remotok.softupdatecenter.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5de6a0ad-7d73-410b-ad50-a2bb5d47b93c
+      xhttp-opts:
+        host: remotok.softupdatecenter.com
+        mode: packet-up
+        path: /assets/60110f98d7505f698ac46760f07e6130/
+        reuse-settings:
+            max-concurrency: "0"
+            max-connections: "2"
+        x-padding-bytes: 128-768
+        x-padding-header: X-Request-Context
+        x-padding-key: request_context
+        x-padding-method: tokenish
+        x-padding-obfs-mode: true
+        x-padding-placement: header
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-7036"
+      network: xhttp
+      port: "33742"
+      server: 193.223.106.13
+      servername: fi-966ffd3f4f.shamanapp.online
+      tls: true
+      type: vless
+      udp: true
+      uuid: b3a11068-1a7e-4643-85de-7c82cce46943
+      xhttp-opts:
+        host: fi-966ffd3f4f.shamanapp.online
+        mode: auto
+        path: /ShamanXHTTP2026
+      xudp: true
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-7058"
+      network: tcp
+      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+      port: "443"
+      server: 188.241.241.117
+      skip-cert-verify: false
+      sni: de8.dedushka.top
+      type: trojan
+      udp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-10294"
+      network: xhttp
+      port: "34451"
+      server: ee-2e06d85dc0.shamanapp.online
+      servername: ee-2e06d85dc0.shamanapp.online
+      tls: true
+      type: vless
+      udp: true
+      uuid: b3a11068-1a7e-4643-85de-7c82cce46943
+      xhttp-opts:
+        host: ee-2e06d85dc0.shamanapp.online
+        mode: stream-up
+        path: /ShamanXHTTP2026
+      xudp: true
